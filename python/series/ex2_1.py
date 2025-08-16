@@ -11,3 +11,4 @@ print(insts_only)
 # NOTAS
 # al tener una serie de solo enteros pandas unifica los tipos numericos en dytpe=float64, se upcastean a float
 # bool es un subtipo de int en python
+# mixed numeric types en pandas significa números de distintos tipos (int, float, np.int64, np.float32, etc.).
