@@ -15,3 +15,7 @@ print()
 # dudas?
     # cuando usar el assign en vez de crear las columnas directamente
     # siempre al usar assign se ha de crear otro dataframe ? no se puede aplicar los cambios en el mismo?
+
+##
+    # assign devuelve un copia
+    # si queremos  conservar si a de reasignar

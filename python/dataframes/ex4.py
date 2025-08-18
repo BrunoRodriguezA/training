@@ -5,6 +5,9 @@
 import pandas as pd
 ventas = pd.read_csv("ventas.csv")
 
+ventas['ingreso_total'] = ventas['precio'] * ventas['cantidad']
+ventas['ingreso_neto'] = ventas['ingreso_total'] * (1 - ventas['descuento_pct'].fillna(0))
+
 # mascaras boolenas
 pedidos_madrid = ventas['ciudad'] == "Madrid"
 canal_web = ventas['canal'] == "web"
@@ -12,8 +15,8 @@ canal_web = ventas['canal'] == "web"
 ventas = ventas[pedidos_madrid]
 ventas = ventas[canal_web]
 
-ventas['ingreso_total'] = ventas['precio'] * ventas['cantidad']
-ventas['ingreso_neto'] = ventas['ingreso_total'] * (1 - ventas['descuento_pct'].fillna(0))
+# mask = (ventas['ciudad'].eq("Madrid")) & (ventas['canal'].eq("web"))
+# ventas_mad_web = ventas.loc[mask].copy()
 
 total_ventas = len(ventas)
 ingreso_neto_total = ventas['ingreso_neto'].sum()

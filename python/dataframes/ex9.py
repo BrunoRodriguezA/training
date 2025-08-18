@@ -7,8 +7,14 @@ import pandas as pd
 from pandas.api.types import CategoricalDtype
 
 tickets = pd.read_csv("tickets.csv")
-priority_uniq = tickets['prioridad'].unique()
-priority_cat = CategoricalDtype(categories=list(priority_uniq), ordered=True)
+
+prio_type = CategoricalDtype(categories=['Alta', 'Media', 'Baja'], ordered=True)
+estado_type = CategoricalDtype(categories=['Abierto', 'En progreso', 'Cerrado'], ordered=True)
+
+tickets['prioridad'] = tickets['prioridad'].astype(prio_type)
+tickets['estado'] = tickets['estado'].astype(estado_type)
+
+tickets_sorted = tickets.sort_values(["prioridad", 'created_at'], ascending=[True, False])
 
 print()
 # dudas

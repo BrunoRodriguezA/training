@@ -5,8 +5,8 @@ import pandas as pd
 ventas = pd.read_csv("ventas.csv")
 sensores = pd.read_csv("sensores.csv")
 
-# nunique evalua por eje  axis = 0 = indice ; axis = 1 = columnas
-# unique evalua por columna df['x'].unique()
+# nunique evalua por eje  axis = 0 = indice ; axis = 1 = columnas ; conteo
+# unique evalua por columna df['x'].unique() ; array de valores
 
 cat_unicos = ventas['categoria'].nunique()
 prod_unicos = ventas['producto'].nunique()

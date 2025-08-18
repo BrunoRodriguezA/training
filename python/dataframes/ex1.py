@@ -12,3 +12,8 @@ print(ventas.describe(include="all"))
 
 # dudas
     # diferencia entre una serie y un df, que es cada cosa?
+
+##
+    # una serie es un columna 1d -> df['col']
+    # un df es un tabla 2D ->  df[['col']]
+    # parse_dates sirve para convertir columnas especificas en datetime
