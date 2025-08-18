@@ -47,7 +47,7 @@ class CuentaBancaria:
         self.saldo += float(monto)
 
     # retirar
-    def retirar(self, monto):
+    def retirar(self, monto:float) -> None:
 
         if isinstance(monto, bool) or not isinstance(monto, (int,float)):
             raise ValueError("El monto debe de ser numerico (int o float")

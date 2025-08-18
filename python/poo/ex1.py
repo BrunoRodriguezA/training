@@ -116,4 +116,3 @@ print(p2.esMayorEdad())
 # porque se hace varias validaciones is not None
 # porque se pone un representacion __str__ ( porque una str y no un rep?)
 # que buenas practicas hay ? este ha sido un buen ejercicio para empezar?
-
