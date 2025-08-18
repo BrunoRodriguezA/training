@@ -1,0 +1,301 @@
+incident_id,created_at,closed_at,prioridad,estado,asignado_a,origen,tiempo_respuesta_min,etiquetas,descripcion
+T-000271,2025-05-01 09:41:00,,Baja,Abierto,Pablo,SIEM,100,credenciales|malware|correlación,Incidente detectado por API
+T-000139,2025-05-01 15:14:00,,Media,En progreso,Pablo,SIEM,84,malware,Reporte manual via email
+T-000213,2025-05-01 15:38:00,,Media,Abierto,María,SIEM,47,playbook|credenciales|siem,Evento WAF con alta tasa de bloqueos
+T-000133,2025-05-01 16:24:00,,Media,En progreso,Jorge,SIEM,100,false_positive|playbook|phishing,Evento WAF con alta tasa de bloqueos
+T-000011,2025-05-01 20:07:00,,Alta,En progreso,Pablo,SIEM,8,escaneo|credenciales|correlación,Alerta correlacionada desde SIEM
+T-000253,2025-05-01 21:05:00,,Media,En progreso,Pablo,SIEM,90,siem|correlación|waf,Evento WAF con alta tasa de bloqueos
+T-000009,2025-05-02 01:31:00,2025-05-02 22:42:23.401605409,Baja,Cerrado,Sara,SIEM,77,correlación,Incidente detectado por API
+T-000003,2025-05-02 04:00:00,,Media,Abierto,Lucía,Email,97,playbook|siem|credenciales,Evento WAF con alta tasa de bloqueos
+T-000210,2025-05-02 16:05:00,,Media,Abierto,Lucía,SIEM,104,automation|waf|malware,Evento WAF con alta tasa de bloqueos
+T-000114,2025-05-02 22:22:00,,Media,Abierto,Jorge,SIEM,98,playbook|automation|malware,Evento WAF con alta tasa de bloqueos
+T-000054,2025-05-03 02:43:00,2025-05-04 03:07:18.157494443,Media,Cerrado,Ana,WAF,72,credenciales|playbook|automation,Alerta correlacionada desde SIEM
+T-000112,2025-05-03 08:57:00,,Media,Abierto,Ana,WAF,22,waf|correlación,Incidente detectado por API
+T-000278,2025-05-03 10:56:00,,Media,En progreso,Jorge,SIEM,85,correlación|siem,Reporte manual via email
+T-000081,2025-05-03 11:19:00,2025-05-03 21:33:06.985586221,Media,Cerrado,Jorge,SIEM,38,malware|false_positive|automation,Incidente detectado por API
+T-000272,2025-05-03 16:18:00,,Media,En progreso,Sara,WAF,78,malware|waf,Reporte manual via email
+T-000214,2025-05-03 22:03:00,,Media,Abierto,Sara,API,106,phishing|automation|escaneo,Evento WAF con alta tasa de bloqueos
+T-000246,2025-05-04 00:42:00,,Baja,En progreso,Jorge,SIEM,214,automation|malware,Alerta correlacionada desde SIEM
+T-000004,2025-05-04 03:53:00,,Alta,Abierto,Luis,SIEM,19,false_positive,Incidente detectado por API
+T-000061,2025-05-04 11:39:00,,Alta,En progreso,Sara,WAF,26,siem|credenciales,Incidente detectado por API
+T-000107,2025-05-05 06:18:00,,Baja,Abierto,Lucía,Email,124,phishing|correlación|automation,Incidente detectado por API
+T-000135,2025-05-05 08:34:00,2025-05-08 07:52:42.272067242,Media,Cerrado,Lucía,API,58,malware|credenciales,Reporte manual via email
+T-000221,2025-05-05 22:30:00,,Baja,En progreso,María,Email,90,escaneo,Evento WAF con alta tasa de bloqueos
+T-000194,2025-05-06 19:08:00,,Alta,En progreso,María,SIEM,11,playbook|correlación,Alerta correlacionada desde SIEM
+T-000294,2025-05-07 03:26:00,2025-05-07 19:18:08.192115706,Media,Cerrado,Pablo,SIEM,70,false_positive|waf|malware,Reporte manual via email
+T-000014,2025-05-08 09:45:00,2025-05-11 00:05:09.511461329,Media,Cerrado,Sara,API,118,automation|escaneo|phishing,Incidente detectado por API
+T-000119,2025-05-09 12:39:00,,Baja,En progreso,Jorge,Email,146,correlación,Incidente detectado por API
+T-000057,2025-05-09 20:11:00,,Media,Abierto,Luis,Email,42,siem,Reporte manual via email
+T-000124,2025-05-10 03:19:00,2025-05-11 01:41:14.365934934,Alta,Cerrado,Sara,Email,27,siem|phishing,Incidente detectado por API
+T-000237,2025-05-10 08:58:00,,Media,Abierto,Luis,Email,39,playbook|correlación,Incidente detectado por API
+T-000043,2025-05-10 14:10:00,,Media,Abierto,María,Email,84,false_positive,Alerta correlacionada desde SIEM
+T-000073,2025-05-10 21:12:00,,Alta,En progreso,Lucía,SIEM,7,escaneo,Alerta correlacionada desde SIEM
+T-000130,2025-05-11 08:49:00,2025-05-11 23:25:34.135873957,Alta,Cerrado,Luis,SIEM,21,false_positive|phishing,Incidente detectado por API
+T-000248,2025-05-11 09:58:00,2025-05-11 14:29:58.464530317,Baja,Cerrado,Jorge,SIEM,116,automation|false_positive,Alerta correlacionada desde SIEM
+T-000252,2025-05-11 10:05:00,2025-05-13 08:07:37.068641503,Media,Cerrado,Sara,Email,75,siem|credenciales,Alerta correlacionada desde SIEM
+T-000231,2025-05-11 12:25:00,2025-05-16 18:22:44.818857609,Baja,Cerrado,Luis,API,142,phishing|correlación|false_positive,Reporte manual via email
+T-000129,2025-05-12 20:24:00,,Media,En progreso,Luis,SIEM,100,phishing,Evento WAF con alta tasa de bloqueos
+T-000262,2025-05-13 00:00:00,,Alta,En progreso,Pablo,SIEM,13,correlación,Alerta correlacionada desde SIEM
+T-000032,2025-05-13 01:01:00,,Alta,Abierto,Sara,SIEM,22,automation|playbook|siem,Evento WAF con alta tasa de bloqueos
+T-000152,2025-05-13 01:59:00,,Media,En progreso,Ana,SIEM,74,credenciales,Reporte manual via email
+T-000184,2025-05-13 02:34:00,,Alta,En progreso,Ana,WAF,13,correlación,Evento WAF con alta tasa de bloqueos
+T-000116,2025-05-13 18:51:00,2025-05-14 03:41:29.817444346,Media,Cerrado,Lucía,WAF,83,automation,Evento WAF con alta tasa de bloqueos
+T-000049,2025-05-14 01:48:00,,Alta,En progreso,María,SIEM,11,credenciales,Evento WAF con alta tasa de bloqueos
+T-000044,2025-05-14 05:11:00,2025-05-14 16:48:36.514527475,Alta,Cerrado,Lucía,SIEM,14,malware|escaneo|automation,Evento WAF con alta tasa de bloqueos
+T-000075,2025-05-14 15:19:00,,Media,Abierto,Lucía,WAF,43,false_positive,Alerta correlacionada desde SIEM
+T-000147,2025-05-14 20:41:00,2025-05-17 06:47:11.743608737,Baja,Cerrado,María,SIEM,65,correlación|false_positive|malware,Evento WAF con alta tasa de bloqueos
+T-000076,2025-05-15 00:16:00,2025-05-15 20:16:32.413019866,Media,Cerrado,Sara,SIEM,38,waf,Alerta correlacionada desde SIEM
+T-000109,2025-05-15 02:46:00,,Media,En progreso,Sara,SIEM,35,automation,Reporte manual via email
+T-000216,2025-05-15 07:37:00,2025-05-16 22:56:06.007689328,Media,Cerrado,Ana,WAF,88,phishing,Alerta correlacionada desde SIEM
+T-000143,2025-05-15 18:07:00,,Alta,En progreso,Lucía,SIEM,6,credenciales|escaneo|waf,Incidente detectado por API
+T-000090,2025-05-15 19:41:00,,Alta,Abierto,Jorge,SIEM,29,correlación|malware,Alerta correlacionada desde SIEM
+T-000013,2025-05-15 20:43:00,,Media,Abierto,Pablo,SIEM,31,automation|escaneo,Evento WAF con alta tasa de bloqueos
+T-000033,2025-05-16 08:27:00,2025-05-23 00:31:38.320619308,Media,Cerrado,Lucía,SIEM,76,malware|escaneo,Incidente detectado por API
+T-000082,2025-05-16 13:15:00,,Media,En progreso,María,SIEM,117,escaneo|waf,Reporte manual via email
+T-000056,2025-05-17 13:50:00,,Media,En progreso,Ana,SIEM,21,malware|automation|escaneo,Incidente detectado por API
+T-000228,2025-05-17 19:06:00,,Alta,En progreso,Sara,WAF,15,malware|correlación|escaneo,Alerta correlacionada desde SIEM
+T-000048,2025-05-18 19:46:00,2025-05-27 12:31:35.153850388,Alta,Cerrado,Luis,SIEM,27,playbook|phishing,Evento WAF con alta tasa de bloqueos
+T-000193,2025-05-19 10:14:00,,Alta,En progreso,Ana,SIEM,22,playbook,Incidente detectado por API
+T-000202,2025-05-19 20:26:00,,Media,Abierto,Sara,SIEM,115,false_positive|correlación,Alerta correlacionada desde SIEM
+T-000136,2025-05-19 22:08:00,,Media,Abierto,Ana,Email,29,credenciales|correlación,Reporte manual via email
+T-000153,2025-05-19 23:44:00,,Media,Abierto,Lucía,WAF,111,waf,Evento WAF con alta tasa de bloqueos
+T-000283,2025-05-20 05:23:00,2025-05-20 11:47:49.674014828,Media,Cerrado,Jorge,WAF,116,waf|escaneo,Alerta correlacionada desde SIEM
+T-000002,2025-05-20 15:08:00,,Baja,En progreso,María,SIEM,40,waf|playbook|phishing,Alerta correlacionada desde SIEM
+T-000251,2025-05-21 12:08:00,,Baja,En progreso,Sara,WAF,146,credenciales|siem,Evento WAF con alta tasa de bloqueos
+T-000018,2025-05-21 17:56:00,,Media,En progreso,Sara,WAF,78,false_positive|credenciales|phishing,Evento WAF con alta tasa de bloqueos
+T-000101,2025-05-22 02:37:00,,Media,En progreso,Ana,SIEM,51,waf|false_positive|escaneo,Alerta correlacionada desde SIEM
+T-000176,2025-05-22 16:56:00,2025-05-24 08:12:07.176271850,Media,Cerrado,Lucía,WAF,87,escaneo,Alerta correlacionada desde SIEM
+T-000095,2025-05-22 19:32:00,2025-05-24 07:56:17.437770781,Alta,Cerrado,Ana,SIEM,27,playbook|escaneo,Alerta correlacionada desde SIEM
+T-000173,2025-05-23 12:39:00,,Media,En progreso,Jorge,SIEM,107,waf|correlación,Alerta correlacionada desde SIEM
+T-000243,2025-05-24 04:37:00,,Alta,Abierto,Jorge,SIEM,18,waf,Alerta correlacionada desde SIEM
+T-000077,2025-05-24 12:58:00,2025-05-27 14:44:18.191706098,Media,Cerrado,Ana,Email,101,correlación|waf|playbook,Reporte manual via email
+T-000241,2025-05-24 13:47:00,,Media,En progreso,María,SIEM,57,waf,Incidente detectado por API
+T-000142,2025-05-24 14:54:00,,Baja,En progreso,Jorge,Email,172,credenciales|phishing|waf,Evento WAF con alta tasa de bloqueos
+T-000005,2025-05-25 02:08:00,,Media,Abierto,Jorge,SIEM,96,credenciales,Evento WAF con alta tasa de bloqueos
+T-000209,2025-05-25 02:46:00,,Alta,En progreso,Lucía,SIEM,17,escaneo|playbook,Reporte manual via email
+T-000052,2025-05-25 18:07:00,,Alta,En progreso,Ana,SIEM,11,correlación|playbook,Reporte manual via email
+T-000245,2025-05-26 00:55:00,2025-05-30 22:56:10.913836495,Media,Cerrado,Luis,SIEM,35,correlación|siem|false_positive,Reporte manual via email
+T-000211,2025-05-26 07:34:00,,Media,Abierto,Ana,SIEM,22,correlación|escaneo,Incidente detectado por API
+T-000020,2025-05-26 08:45:00,2025-05-26 16:24:46.291231000,Media,Cerrado,María,SIEM,106,waf|correlación|malware,Incidente detectado por API
+T-000030,2025-05-26 09:40:00,2025-05-29 05:20:01.664980830,Media,Cerrado,Jorge,SIEM,61,escaneo|correlación|credenciales,Evento WAF con alta tasa de bloqueos
+T-000264,2025-05-26 12:58:00,,Alta,En progreso,María,SIEM,22,siem,Alerta correlacionada desde SIEM
+T-000212,2025-05-27 17:53:00,,Baja,Abierto,Luis,Email,156,malware,Incidente detectado por API
+T-000157,2025-05-28 00:16:00,,Media,Abierto,Pablo,SIEM,59,waf|automation|escaneo,Reporte manual via email
+T-000040,2025-05-28 04:40:00,,Baja,En progreso,Lucía,API,122,escaneo|false_positive|automation,Reporte manual via email
+T-000191,2025-05-28 20:53:00,,Media,En progreso,Lucía,SIEM,65,siem|playbook|phishing,Alerta correlacionada desde SIEM
+T-000180,2025-05-30 06:22:00,,Media,En progreso,Ana,SIEM,110,malware|waf|automation,Alerta correlacionada desde SIEM
+T-000027,2025-05-30 07:10:00,,Alta,En progreso,Sara,SIEM,11,correlación|escaneo|malware,Incidente detectado por API
+T-000086,2025-05-30 11:14:00,2025-06-01 12:03:07.203436484,Alta,Cerrado,Luis,SIEM,12,credenciales,Reporte manual via email
+T-000111,2025-05-30 19:36:00,2025-05-31 19:38:24.928679661,Alta,Cerrado,Luis,SIEM,18,malware|correlación,Incidente detectado por API
+T-000238,2025-05-31 02:53:00,2025-06-02 06:35:16.803103251,Media,Cerrado,Lucía,SIEM,61,automation,Alerta correlacionada desde SIEM
+T-000183,2025-05-31 06:08:00,,Alta,Abierto,Pablo,WAF,18,correlación|waf,Reporte manual via email
+T-000291,2025-05-31 08:58:00,,Alta,En progreso,Luis,WAF,11,escaneo|false_positive|malware,Reporte manual via email
+T-000021,2025-05-31 09:54:00,2025-06-03 14:25:33.652649935,Alta,Cerrado,Luis,WAF,29,credenciales|malware,Alerta correlacionada desde SIEM
+T-000296,2025-05-31 10:47:00,,Media,Abierto,Pablo,SIEM,92,waf,Evento WAF con alta tasa de bloqueos
+T-000255,2025-05-31 21:36:00,,Media,En progreso,Jorge,WAF,45,credenciales|siem|playbook,Evento WAF con alta tasa de bloqueos
+T-000181,2025-06-01 21:41:00,,Media,En progreso,Jorge,Email,94,false_positive|credenciales,Evento WAF con alta tasa de bloqueos
+T-000138,2025-06-02 01:13:00,,Media,En progreso,María,API,29,siem,Evento WAF con alta tasa de bloqueos
+T-000263,2025-06-02 05:24:00,2025-06-05 09:25:13.593963560,Media,Cerrado,Luis,SIEM,34,playbook|malware|waf,Evento WAF con alta tasa de bloqueos
+T-000144,2025-06-03 01:26:00,,Media,Abierto,Lucía,API,79,malware,Alerta correlacionada desde SIEM
+T-000046,2025-06-04 01:10:00,,Media,En progreso,María,Email,52,credenciales|playbook,Evento WAF con alta tasa de bloqueos
+T-000187,2025-06-04 14:55:00,,Baja,Abierto,Ana,Email,117,escaneo,Evento WAF con alta tasa de bloqueos
+T-000059,2025-06-04 20:46:00,,Media,En progreso,Sara,WAF,64,playbook|phishing|escaneo,Incidente detectado por API
+T-000276,2025-06-05 16:48:00,,Media,Abierto,Luis,SIEM,38,credenciales|waf,Incidente detectado por API
+T-000123,2025-06-05 18:40:00,,Baja,En progreso,Pablo,Email,58,correlación|false_positive,Incidente detectado por API
+T-000058,2025-06-06 10:19:00,,Alta,Abierto,Lucía,Email,12,correlación|playbook,Incidente detectado por API
+T-000016,2025-06-07 10:52:00,,Baja,En progreso,Sara,SIEM,57,credenciales,Evento WAF con alta tasa de bloqueos
+T-000196,2025-06-07 17:27:00,,Baja,En progreso,Jorge,WAF,214,false_positive|siem|escaneo,Reporte manual via email
+T-000167,2025-06-08 04:54:00,,Media,Abierto,Ana,SIEM,46,malware,Reporte manual via email
+T-000225,2025-06-09 05:37:00,2025-06-09 14:04:37.300733192,Alta,Cerrado,Luis,WAF,20,waf|correlación|malware,Evento WAF con alta tasa de bloqueos
+T-000047,2025-06-10 02:28:00,2025-06-13 14:13:58.725703274,Media,Cerrado,María,API,116,credenciales,Reporte manual via email
+T-000226,2025-06-10 03:26:00,2025-06-10 09:28:46.713813818,Media,Cerrado,Lucía,Email,80,escaneo|phishing|siem,Alerta correlacionada desde SIEM
+T-000215,2025-06-10 04:50:00,,Alta,Abierto,Ana,Email,12,siem,Evento WAF con alta tasa de bloqueos
+T-000113,2025-06-10 06:25:00,2025-06-10 21:12:56.117721531,Media,Cerrado,Pablo,SIEM,64,phishing|escaneo,Incidente detectado por API
+T-000156,2025-06-10 08:51:00,,Alta,En progreso,Lucía,WAF,11,malware,Reporte manual via email
+T-000266,2025-06-10 16:47:00,,Media,Abierto,María,SIEM,34,escaneo,Reporte manual via email
+T-000220,2025-06-10 18:29:00,,Alta,En progreso,Luis,SIEM,15,malware|phishing|credenciales,Incidente detectado por API
+T-000281,2025-06-11 14:32:00,2025-06-12 12:33:55.441341639,Baja,Cerrado,María,Email,138,correlación|malware,Incidente detectado por API
+T-000080,2025-06-12 07:51:00,,Media,En progreso,Lucía,SIEM,113,correlación|malware|credenciales,Incidente detectado por API
+T-000121,2025-06-12 11:45:00,,Media,Abierto,Sara,SIEM,74,malware|waf,Alerta correlacionada desde SIEM
+T-000201,2025-06-12 11:50:00,,Baja,Abierto,Sara,SIEM,78,correlación,Incidente detectado por API
+T-000235,2025-06-12 15:32:00,,Alta,En progreso,Luis,WAF,22,siem|escaneo|malware,Evento WAF con alta tasa de bloqueos
+T-000017,2025-06-12 19:19:00,,Media,En progreso,Jorge,Email,39,escaneo|siem,Evento WAF con alta tasa de bloqueos
+T-000207,2025-06-13 12:58:00,,Media,En progreso,Sara,SIEM,119,credenciales|escaneo,Incidente detectado por API
+T-000063,2025-06-13 15:47:00,,Media,Abierto,Lucía,SIEM,28,automation|correlación,Evento WAF con alta tasa de bloqueos
+T-000174,2025-06-13 21:23:00,,Media,En progreso,Ana,SIEM,96,malware|escaneo,Evento WAF con alta tasa de bloqueos
+T-000204,2025-06-14 13:55:00,2025-06-16 22:05:14.188863955,Media,Cerrado,Jorge,Email,29,phishing|false_positive|waf,Evento WAF con alta tasa de bloqueos
+T-000045,2025-06-14 16:15:00,,Baja,En progreso,Pablo,SIEM,230,credenciales|false_positive|automation,Incidente detectado por API
+T-000091,2025-06-15 05:45:00,2025-06-18 05:23:01.600037738,Media,Cerrado,Sara,WAF,35,automation|credenciales,Alerta correlacionada desde SIEM
+T-000234,2025-06-15 23:17:00,,Media,En progreso,Sara,SIEM,29,malware|automation|escaneo,Incidente detectado por API
+T-000078,2025-06-16 15:15:00,,Media,Abierto,Pablo,SIEM,33,false_positive,Evento WAF con alta tasa de bloqueos
+T-000256,2025-06-16 17:51:00,2025-06-18 13:40:07.300382163,Baja,Cerrado,Pablo,SIEM,200,playbook,Reporte manual via email
+T-000068,2025-06-17 05:41:00,2025-06-21 09:32:34.839272789,Media,Cerrado,Luis,SIEM,44,siem|correlación,Reporte manual via email
+T-000260,2025-06-17 09:49:00,2025-06-19 17:05:49.550151302,Media,Cerrado,Pablo,Email,41,credenciales,Incidente detectado por API
+T-000099,2025-06-17 12:51:00,,Media,Abierto,María,SIEM,91,phishing|playbook|credenciales,Reporte manual via email
+T-000012,2025-06-17 17:12:00,2025-06-18 19:25:10.413692725,Baja,Cerrado,María,SIEM,94,automation,Incidente detectado por API
+T-000105,2025-06-18 06:46:00,,Media,Abierto,Jorge,SIEM,65,malware|credenciales|escaneo,Evento WAF con alta tasa de bloqueos
+T-000274,2025-06-19 01:08:00,2025-06-19 06:15:29.382754948,Media,Cerrado,Jorge,SIEM,28,automation,Alerta correlacionada desde SIEM
+T-000279,2025-06-19 03:16:00,2025-06-20 13:16:35.446987896,Baja,Cerrado,Pablo,API,85,playbook|escaneo,Alerta correlacionada desde SIEM
+T-000280,2025-06-19 04:45:00,2025-06-22 11:57:14.035015191,Media,Cerrado,Ana,Email,21,escaneo|correlación|phishing,Alerta correlacionada desde SIEM
+T-000019,2025-06-19 09:33:00,2025-06-19 20:37:30.658695787,Media,Cerrado,Pablo,API,26,false_positive,Incidente detectado por API
+T-000247,2025-06-19 13:21:00,,Alta,En progreso,Ana,Email,15,false_positive|playbook,Alerta correlacionada desde SIEM
+T-000175,2025-06-20 00:15:00,,Media,En progreso,Pablo,SIEM,71,correlación,Evento WAF con alta tasa de bloqueos
+T-000197,2025-06-20 08:31:00,2025-06-20 10:50:37.511377284,Alta,Cerrado,Lucía,WAF,15,malware,Evento WAF con alta tasa de bloqueos
+T-000025,2025-06-20 16:05:00,2025-06-22 23:46:28.069001053,Alta,Cerrado,Lucía,WAF,21,malware|credenciales,Alerta correlacionada desde SIEM
+T-000289,2025-06-20 21:09:00,,Media,En progreso,Jorge,WAF,52,correlación,Alerta correlacionada desde SIEM
+T-000085,2025-06-20 21:32:00,,Alta,Abierto,Ana,WAF,9,waf|malware,Incidente detectado por API
+T-000186,2025-06-21 01:31:00,2025-06-27 03:02:14.490795723,Media,Cerrado,Ana,Email,85,playbook|automation,Reporte manual via email
+T-000223,2025-06-21 06:23:00,2025-06-22 07:05:17.096960386,Media,Cerrado,Ana,API,100,waf|automation,Incidente detectado por API
+T-000190,2025-06-21 18:32:00,2025-06-22 17:00:40.458502719,Media,Cerrado,Sara,SIEM,35,phishing,Incidente detectado por API
+T-000295,2025-06-21 22:24:00,2025-06-22 11:50:27.987888432,Media,Cerrado,Luis,WAF,26,escaneo,Alerta correlacionada desde SIEM
+T-000198,2025-06-22 23:58:00,2025-06-23 01:59:15.188624228,Alta,Cerrado,Ana,SIEM,27,false_positive|phishing|malware,Incidente detectado por API
+T-000036,2025-06-23 01:07:00,,Media,En progreso,Lucía,SIEM,98,phishing|siem,Evento WAF con alta tasa de bloqueos
+T-000050,2025-06-23 07:41:00,2025-06-24 22:45:04.684291945,Baja,Cerrado,Sara,WAF,198,playbook|waf,Reporte manual via email
+T-000039,2025-06-23 07:57:00,2025-06-26 15:41:48.463417411,Alta,Cerrado,Luis,SIEM,22,correlación,Incidente detectado por API
+T-000102,2025-06-23 13:35:00,2025-06-24 16:11:34.355797007,Alta,Cerrado,Luis,WAF,11,credenciales,Alerta correlacionada desde SIEM
+T-000298,2025-06-23 22:16:00,,Media,Abierto,Luis,API,48,phishing|correlación,Alerta correlacionada desde SIEM
+T-000042,2025-06-24 03:34:00,2025-06-24 18:25:15.043702472,Media,Cerrado,Pablo,SIEM,34,escaneo|false_positive|waf,Alerta correlacionada desde SIEM
+T-000098,2025-06-24 07:15:00,,Media,En progreso,Luis,Email,85,phishing,Alerta correlacionada desde SIEM
+T-000120,2025-06-24 12:14:00,,Media,En progreso,Pablo,WAF,98,automation|false_positive|siem,Reporte manual via email
+T-000239,2025-06-24 13:57:00,,Media,Abierto,Ana,Email,42,correlación,Incidente detectado por API
+T-000268,2025-06-25 00:11:00,,Media,Abierto,Luis,SIEM,100,phishing|credenciales|automation,Alerta correlacionada desde SIEM
+T-000250,2025-06-25 14:25:00,,Alta,En progreso,Ana,WAF,17,false_positive|malware|siem,Alerta correlacionada desde SIEM
+T-000275,2025-06-25 16:59:00,,Alta,Abierto,María,WAF,10,credenciales,Incidente detectado por API
+T-000092,2025-06-25 21:43:00,,Alta,Abierto,,SIEM,23,phishing|waf|correlación,Reporte manual via email
+T-000182,2025-06-26 12:08:00,,Media,Abierto,María,Email,74,automation|malware,Alerta correlacionada desde SIEM
+T-000108,2025-06-26 23:28:00,2025-06-29 05:55:22.741475850,Baja,Cerrado,Luis,SIEM,119,credenciales|siem,Incidente detectado por API
+T-000074,2025-06-27 08:32:00,2025-06-27 20:06:26.144161096,Media,Cerrado,Pablo,API,71,false_positive|automation,Reporte manual via email
+T-000051,2025-06-27 17:29:00,,Media,En progreso,Lucía,SIEM,119,false_positive|malware|credenciales,Reporte manual via email
+T-000070,2025-06-27 18:23:00,2025-06-27 19:40:39.174473117,Alta,Cerrado,Sara,API,28,malware,Alerta correlacionada desde SIEM
+T-000200,2025-06-27 23:12:00,,Media,En progreso,Jorge,WAF,30,escaneo|credenciales,Evento WAF con alta tasa de bloqueos
+T-000134,2025-06-28 07:04:00,,Alta,Abierto,Luis,WAF,14,false_positive|escaneo|malware,Incidente detectado por API
+T-000037,2025-06-28 08:47:00,,Media,Abierto,Luis,WAF,87,correlación,Evento WAF con alta tasa de bloqueos
+T-000083,2025-06-28 20:48:00,,Media,En progreso,Luis,WAF,119,correlación|malware,Evento WAF con alta tasa de bloqueos
+T-000273,2025-06-29 10:28:00,2025-06-30 23:04:07.464906053,Baja,Cerrado,Ana,API,96,false_positive|phishing,Evento WAF con alta tasa de bloqueos
+T-000290,2025-06-30 11:45:00,,Media,En progreso,Luis,WAF,43,playbook,Incidente detectado por API
+T-000100,2025-06-30 14:00:00,2025-06-30 23:55:27.194169128,Media,Cerrado,,WAF,88,malware|siem|automation,Evento WAF con alta tasa de bloqueos
+T-000131,2025-07-01 02:51:00,2025-07-03 23:17:45.179301347,Baja,Cerrado,Sara,SIEM,113,correlación,Evento WAF con alta tasa de bloqueos
+T-000089,2025-07-01 14:06:00,2025-07-07 17:59:44.032894314,Alta,Cerrado,María,API,12,escaneo,Alerta correlacionada desde SIEM
+T-000249,2025-07-01 16:35:00,2025-07-04 15:13:42.104564275,Alta,Cerrado,María,SIEM,5,siem,Incidente detectado por API
+T-000177,2025-07-01 17:42:00,,Media,En progreso,Sara,API,104,phishing|playbook,Reporte manual via email
+T-000149,2025-07-02 00:48:00,2025-07-05 15:29:50.100116104,Alta,Cerrado,Luis,Email,21,siem|waf,Alerta correlacionada desde SIEM
+T-000159,2025-07-02 04:28:00,2025-07-03 14:57:40.040542107,Media,Cerrado,Luis,SIEM,48,correlación|credenciales,Incidente detectado por API
+T-000026,2025-07-02 10:15:00,,Media,En progreso,Jorge,SIEM,61,playbook,Evento WAF con alta tasa de bloqueos
+T-000084,2025-07-02 10:48:00,,Media,Abierto,Luis,SIEM,75,escaneo|phishing|playbook,Incidente detectado por API
+T-000284,2025-07-03 21:15:00,2025-07-03 23:17:04.126404110,Media,Cerrado,Sara,SIEM,78,playbook|siem,Evento WAF con alta tasa de bloqueos
+T-000041,2025-07-04 08:09:00,,Media,En progreso,María,Email,114,waf,Reporte manual via email
+T-000106,2025-07-04 10:48:00,,Media,En progreso,Jorge,Email,104,playbook,Alerta correlacionada desde SIEM
+T-000118,2025-07-04 17:50:00,2025-07-06 19:35:52.326167998,Media,Cerrado,María,WAF,21,phishing,Incidente detectado por API
+T-000038,2025-07-05 05:31:00,2025-07-05 23:38:01.475303262,Media,Cerrado,María,Email,31,phishing|playbook|correlación,Evento WAF con alta tasa de bloqueos
+T-000079,2025-07-05 16:31:00,,Alta,Abierto,Pablo,SIEM,16,playbook|credenciales|siem,Reporte manual via email
+T-000168,2025-07-06 17:42:00,,Baja,En progreso,Luis,API,191,correlación|false_positive,Incidente detectado por API
+T-000122,2025-07-07 00:23:00,2025-07-09 08:11:41.952986160,Media,Cerrado,Luis,WAF,52,automation|siem|waf,Alerta correlacionada desde SIEM
+T-000022,2025-07-07 05:13:00,,Baja,En progreso,Pablo,SIEM,81,waf,Reporte manual via email
+T-000171,2025-07-07 14:08:00,2025-07-09 20:47:52.155761961,Baja,Cerrado,Sara,WAF,127,siem,Reporte manual via email
+T-000023,2025-07-07 14:47:00,2025-07-07 17:54:04.639781043,Media,Cerrado,Sara,SIEM,65,credenciales|phishing|false_positive,Evento WAF con alta tasa de bloqueos
+T-000258,2025-07-08 03:31:00,2025-07-08 20:07:41.724373406,Media,Cerrado,Lucía,SIEM,33,waf,Incidente detectado por API
+T-000015,2025-07-08 17:18:00,2025-07-08 22:44:53.846589383,Media,Cerrado,Luis,Email,50,correlación,Alerta correlacionada desde SIEM
+T-000269,2025-07-08 23:05:00,2025-07-09 04:49:52.870022195,Media,Cerrado,Lucía,WAF,37,correlación|credenciales,Alerta correlacionada desde SIEM
+T-000199,2025-07-09 13:27:00,2025-07-10 03:18:35.496494251,Baja,Cerrado,Pablo,SIEM,238,waf|automation|escaneo,Evento WAF con alta tasa de bloqueos
+T-000242,2025-07-10 03:49:00,,Alta,En progreso,Ana,SIEM,16,malware,Reporte manual via email
+T-000222,2025-07-10 18:30:00,,Alta,Abierto,Luis,WAF,25,false_positive|siem|escaneo,Reporte manual via email
+T-000028,2025-07-10 23:21:00,,Alta,En progreso,Jorge,Email,10,correlación,Incidente detectado por API
+T-000096,2025-07-11 13:08:00,,Media,En progreso,Pablo,SIEM,48,malware,Evento WAF con alta tasa de bloqueos
+T-000267,2025-07-11 16:46:00,,Alta,Abierto,Jorge,WAF,5,credenciales|waf,Incidente detectado por API
+T-000146,2025-07-11 22:03:00,2025-07-12 20:29:47.827837744,Media,Cerrado,Pablo,Email,102,malware|siem,Alerta correlacionada desde SIEM
+T-000233,2025-07-12 09:03:00,,Media,Abierto,Jorge,Email,64,correlación|malware|escaneo,Evento WAF con alta tasa de bloqueos
+T-000007,2025-07-13 01:42:00,2025-07-14 20:46:59.918248142,Alta,Cerrado,Sara,SIEM,19,credenciales,Evento WAF con alta tasa de bloqueos
+T-000145,2025-07-13 02:22:00,,Media,En progreso,Sara,WAF,97,credenciales|siem,Alerta correlacionada desde SIEM
+T-000008,2025-07-13 21:05:00,2025-07-17 15:19:19.742833828,Baja,Cerrado,Luis,WAF,83,correlación,Alerta correlacionada desde SIEM
+T-000164,2025-07-13 21:19:00,,Baja,Abierto,Jorge,SIEM,66,false_positive|credenciales|malware,Evento WAF con alta tasa de bloqueos
+T-000299,2025-07-14 02:40:00,2025-07-15 18:06:43.724511937,Media,Cerrado,Ana,SIEM,86,playbook|false_positive|automation,Incidente detectado por API
+T-000227,2025-07-14 04:56:00,,Alta,En progreso,Sara,Email,25,phishing|credenciales,Alerta correlacionada desde SIEM
+T-000126,2025-07-14 11:17:00,,Media,En progreso,Luis,SIEM,107,false_positive|waf,Reporte manual via email
+T-000060,2025-07-14 19:07:00,2025-07-17 15:59:49.917963573,Baja,Cerrado,Pablo,SIEM,65,playbook|phishing|waf,Incidente detectado por API
+T-000093,2025-07-14 19:53:00,2025-07-18 02:01:00.531929043,Media,Cerrado,Luis,SIEM,20,siem|automation,Evento WAF con alta tasa de bloqueos
+T-000067,2025-07-15 08:12:00,,Media,Abierto,Jorge,SIEM,20,playbook|credenciales|phishing,Incidente detectado por API
+T-000277,2025-07-15 19:49:00,2025-07-19 22:42:25.951454919,Media,Cerrado,Luis,WAF,62,waf|false_positive,Evento WAF con alta tasa de bloqueos
+T-000034,2025-07-16 02:40:00,,Alta,En progreso,,API,26,malware|siem,Reporte manual via email
+T-000069,2025-07-16 06:27:00,,Media,Abierto,Lucía,SIEM,112,false_positive,Reporte manual via email
+T-000066,2025-07-16 08:03:00,,Baja,En progreso,María,SIEM,230,malware|phishing,Alerta correlacionada desde SIEM
+T-000072,2025-07-16 20:01:00,2025-07-18 11:38:25.323540062,Media,Cerrado,María,SIEM,96,correlación,Evento WAF con alta tasa de bloqueos
+T-000035,2025-07-16 20:31:00,2025-07-17 02:21:21.807768009,Baja,Cerrado,Pablo,SIEM,54,credenciales|false_positive|playbook,Reporte manual via email
+T-000254,2025-07-16 21:55:00,,Alta,Abierto,Luis,Email,9,false_positive|credenciales|malware,Evento WAF con alta tasa de bloqueos
+T-000163,2025-07-17 11:54:00,,Baja,Abierto,María,WAF,172,correlación,Incidente detectado por API
+T-000257,2025-07-17 14:57:00,,Media,Abierto,Pablo,SIEM,114,siem|phishing|correlación,Evento WAF con alta tasa de bloqueos
+T-000165,2025-07-18 06:57:00,,Alta,Abierto,Sara,SIEM,13,malware|siem|waf,Incidente detectado por API
+T-000230,2025-07-18 13:12:00,,Media,En progreso,Pablo,WAF,46,playbook|malware|escaneo,Evento WAF con alta tasa de bloqueos
+T-000169,2025-07-18 20:51:00,,Media,En progreso,Luis,Email,108,waf,Reporte manual via email
+T-000282,2025-07-19 10:54:00,,Baja,Abierto,Jorge,Email,157,correlación|malware,Reporte manual via email
+T-000141,2025-07-19 13:28:00,,Media,Abierto,Lucía,SIEM,60,siem|phishing|playbook,Incidente detectado por API
+T-000117,2025-07-20 05:35:00,2025-07-22 14:23:57.317359814,Media,Cerrado,Jorge,SIEM,110,siem|phishing,Evento WAF con alta tasa de bloqueos
+T-000261,2025-07-20 20:59:00,,Media,En progreso,Lucía,WAF,26,credenciales|phishing|waf,Reporte manual via email
+T-000104,2025-07-21 02:09:00,2025-07-22 16:25:26.237212667,Media,Cerrado,Sara,SIEM,112,escaneo|false_positive|siem,Alerta correlacionada desde SIEM
+T-000178,2025-07-21 06:49:00,2025-07-23 05:53:20.697336984,Media,Cerrado,Sara,WAF,20,siem|playbook,Alerta correlacionada desde SIEM
+T-000205,2025-07-21 11:35:00,2025-07-25 07:20:14.423004286,Media,Cerrado,Jorge,Email,21,siem|phishing,Reporte manual via email
+T-000160,2025-07-21 14:37:00,2025-07-22 20:04:28.044698641,Media,Cerrado,Sara,WAF,46,escaneo|siem,Alerta correlacionada desde SIEM
+T-000103,2025-07-21 14:40:00,,Media,Abierto,Ana,WAF,115,correlación|waf,Alerta correlacionada desde SIEM
+T-000087,2025-07-21 22:13:00,,Alta,Abierto,Luis,SIEM,15,correlación|playbook,Reporte manual via email
+T-000071,2025-07-22 16:12:00,,Alta,En progreso,,SIEM,23,playbook,Reporte manual via email
+T-000203,2025-07-22 23:25:00,,Baja,En progreso,Jorge,Email,231,playbook|correlación|malware,Reporte manual via email
+T-000217,2025-07-22 23:46:00,,Media,En progreso,Jorge,Email,87,phishing|automation|playbook,Evento WAF con alta tasa de bloqueos
+T-000065,2025-07-23 03:10:00,,Media,Abierto,María,SIEM,85,false_positive,Evento WAF con alta tasa de bloqueos
+T-000297,2025-07-23 03:53:00,,Alta,En progreso,María,SIEM,25,correlación,Evento WAF con alta tasa de bloqueos
+T-000189,2025-07-24 00:31:00,2025-07-27 03:36:17.225657482,Baja,Cerrado,Jorge,Email,210,siem|waf,Reporte manual via email
+T-000293,2025-07-24 09:15:00,,Media,En progreso,Luis,SIEM,94,waf|escaneo|correlación,Alerta correlacionada desde SIEM
+T-000115,2025-07-24 15:08:00,,Baja,En progreso,Ana,WAF,172,credenciales|malware,Alerta correlacionada desde SIEM
+T-000287,2025-07-25 11:16:00,,Media,En progreso,Ana,WAF,112,siem,Incidente detectado por API
+T-000155,2025-07-25 14:09:00,2025-07-27 22:05:38.409434132,Alta,Cerrado,Sara,WAF,16,malware,Incidente detectado por API
+T-000055,2025-07-25 16:35:00,2025-07-26 01:32:04.886461096,Media,Cerrado,Lucía,SIEM,49,escaneo|credenciales,Incidente detectado por API
+T-000006,2025-07-25 22:11:00,2025-07-25 22:28:07.444083069,Media,Cerrado,,WAF,34,waf,Alerta correlacionada desde SIEM
+T-000232,2025-07-25 23:28:00,,Media,Abierto,Luis,Email,64,siem|credenciales,Alerta correlacionada desde SIEM
+T-000151,2025-07-26 19:14:00,,Alta,Abierto,Luis,Email,17,siem|waf|playbook,Incidente detectado por API
+T-000154,2025-07-27 10:58:00,,Baja,Abierto,Ana,SIEM,218,siem|escaneo,Alerta correlacionada desde SIEM
+T-000094,2025-07-27 18:01:00,,Alta,Abierto,Jorge,SIEM,19,malware|credenciales,Incidente detectado por API
+T-000286,2025-07-27 23:08:00,,Baja,En progreso,María,API,150,malware,Reporte manual via email
+T-000270,2025-07-28 00:24:00,,Media,Abierto,Jorge,Email,80,waf|false_positive|phishing,Alerta correlacionada desde SIEM
+T-000240,2025-07-28 14:01:00,,Media,En progreso,Sara,WAF,78,false_positive|malware,Alerta correlacionada desde SIEM
+T-000288,2025-07-28 14:29:00,,Alta,Abierto,Luis,API,25,false_positive,Incidente detectado por API
+T-000029,2025-07-28 18:30:00,2025-07-29 16:24:30.633908805,Media,Cerrado,Lucía,WAF,85,waf,Evento WAF con alta tasa de bloqueos
+T-000218,2025-07-29 06:09:00,2025-07-30 18:36:33.809163567,Baja,Cerrado,Luis,WAF,76,automation|false_positive,Evento WAF con alta tasa de bloqueos
+T-000179,2025-07-29 07:05:00,2025-07-29 11:57:32.562306189,Media,Cerrado,María,SIEM,60,correlación,Incidente detectado por API
+T-000140,2025-07-29 14:43:00,2025-07-31 12:08:55.677913108,Baja,Cerrado,Luis,WAF,116,credenciales|waf|automation,Evento WAF con alta tasa de bloqueos
+T-000150,2025-07-29 16:38:00,,Baja,Abierto,María,SIEM,215,correlación|escaneo,Alerta correlacionada desde SIEM
+T-000229,2025-07-30 14:56:00,2025-08-02 11:34:15.828758229,Media,Cerrado,Ana,SIEM,47,siem|escaneo|waf,Evento WAF con alta tasa de bloqueos
+T-000064,2025-07-30 20:51:00,,Media,En progreso,María,Email,85,automation|siem|playbook,Evento WAF con alta tasa de bloqueos
+T-000265,2025-07-31 00:36:00,,Baja,En progreso,Lucía,WAF,142,siem|waf,Reporte manual via email
+T-000053,2025-07-31 07:30:00,2025-07-31 23:08:17.835792463,Alta,Cerrado,Ana,SIEM,15,escaneo|playbook,Reporte manual via email
+T-000148,2025-08-01 00:03:00,,Alta,Abierto,Jorge,SIEM,27,false_positive|playbook,Alerta correlacionada desde SIEM
+T-000208,2025-08-01 03:09:00,,Media,En progreso,María,WAF,37,credenciales|siem,Alerta correlacionada desde SIEM
+T-000236,2025-08-01 06:59:00,2025-08-02 12:24:28.465577220,Alta,Cerrado,Sara,WAF,10,escaneo,Evento WAF con alta tasa de bloqueos
+T-000088,2025-08-02 00:44:00,2025-08-04 03:45:18.491824233,Baja,Cerrado,María,SIEM,94,siem,Reporte manual via email
+T-000285,2025-08-02 01:00:00,,Media,En progreso,Luis,Email,67,siem|false_positive|correlación,Reporte manual via email
+T-000244,2025-08-02 06:14:00,,Baja,En progreso,Ana,WAF,72,waf|automation,Evento WAF con alta tasa de bloqueos
+T-000127,2025-08-02 11:47:00,,Media,En progreso,Jorge,Email,78,playbook|false_positive,Incidente detectado por API
+T-000137,2025-08-02 17:15:00,2025-08-03 22:26:19.867616804,Media,Cerrado,Jorge,API,111,waf,Reporte manual via email
+T-000158,2025-08-03 11:09:00,,Baja,Abierto,María,SIEM,111,credenciales|automation|escaneo,Reporte manual via email
+T-000001,2025-08-03 16:10:00,,Media,En progreso,Sara,SIEM,33,escaneo|correlación,Evento WAF con alta tasa de bloqueos
+T-000188,2025-08-04 05:44:00,,Media,En progreso,Sara,SIEM,91,waf,Incidente detectado por API
+T-000132,2025-08-04 16:13:00,,Media,En progreso,María,WAF,71,automation|correlación|phishing,Incidente detectado por API
+T-000185,2025-08-05 20:30:00,,Alta,Abierto,María,SIEM,18,malware,Incidente detectado por API
+T-000259,2025-08-06 06:41:00,,Alta,Abierto,Jorge,SIEM,17,malware|playbook,Alerta correlacionada desde SIEM
+T-000192,2025-08-06 14:13:00,2025-08-08 05:55:53.573975184,Media,Cerrado,Jorge,SIEM,60,false_positive,Alerta correlacionada desde SIEM
+T-000097,2025-08-06 22:04:00,,Media,En progreso,Luis,SIEM,38,false_positive,Reporte manual via email
+T-000224,2025-08-06 22:47:00,,Media,Abierto,Luis,WAF,65,waf,Reporte manual via email
+T-000292,2025-08-07 20:45:00,,Alta,En progreso,Lucía,SIEM,17,playbook,Alerta correlacionada desde SIEM
+T-000031,2025-08-08 22:46:00,,Media,Abierto,,API,37,waf|phishing|malware,Incidente detectado por API
+T-000128,2025-08-09 19:24:00,,Media,Abierto,Lucía,WAF,87,malware,Reporte manual via email
+T-000195,2025-08-09 19:33:00,,Media,Abierto,Pablo,SIEM,84,correlación|phishing,Incidente detectado por API
+T-000110,2025-08-09 22:11:00,2025-08-11 19:05:57.885591751,Media,Cerrado,María,Email,62,correlación,Alerta correlacionada desde SIEM
+T-000170,2025-08-09 23:11:00,2025-08-12 00:31:58.370713136,Alta,Cerrado,Luis,SIEM,10,phishing,Incidente detectado por API
+T-000219,2025-08-10 13:48:00,,Baja,Abierto,Sara,Email,37,playbook|siem|correlación,Alerta correlacionada desde SIEM
+T-000062,2025-08-10 14:29:00,2025-08-13 13:45:29.964697880,Media,Cerrado,Lucía,SIEM,90,playbook,Reporte manual via email
+T-000300,2025-08-10 21:52:00,2025-08-10 22:55:17.903436585,Alta,Cerrado,Pablo,WAF,15,correlación,Evento WAF con alta tasa de bloqueos
+T-000172,2025-08-11 09:27:00,,Alta,En progreso,María,Email,16,waf,Evento WAF con alta tasa de bloqueos
+T-000161,2025-08-11 16:05:00,,Media,En progreso,Pablo,WAF,106,malware|correlación,Reporte manual via email
+T-000024,2025-08-11 16:18:00,,Media,En progreso,Jorge,API,22,escaneo|false_positive,Evento WAF con alta tasa de bloqueos
+T-000162,2025-08-12 11:52:00,,Baja,Abierto,Luis,Email,44,escaneo|correlación|playbook,Incidente detectado por API
+T-000166,2025-08-13 09:09:00,,Alta,En progreso,Ana,SIEM,6,escaneo,Reporte manual via email
+T-000125,2025-08-13 12:43:00,,Baja,Abierto,Pablo,WAF,128,playbook|false_positive,Alerta correlacionada desde SIEM
+T-000010,2025-08-14 15:11:00,2025-08-14 20:41:05.228300865,Baja,Cerrado,Sara,WAF,32,waf|siem,Evento WAF con alta tasa de bloqueos
+T-000206,2025-08-14 16:03:00,,Media,En progreso,Pablo,WAF,36,malware|playbook,Evento WAF con alta tasa de bloqueos

@@ -1,0 +1,501 @@
+order_id,fecha,cliente_id,producto,categoria,precio,cantidad,ciudad,canal,descuento_pct,costo_unitario
+100214,2024-01-01 02:12:00,1187,Sudadera,Ropa,27.78,2,Barcelona,web,0.11,20.16
+100251,2024-01-01 18:44:00,1006,Disco SSD,Electrónica,77.69,4,Sevilla,web,0.07,56.34
+100386,2024-01-01 21:54:00,1160,Pantalón,Ropa,30.37,2,Sevilla,web,0.16,17.1
+100022,2024-01-02 05:53:00,1122,Cómic,Libros,10.84,2,Málaga,tienda,0.17,6.04
+100444,2024-01-04 12:33:00,1121,Botella Agua,Deporte,47.57,1,Murcia,web,0.19,28.65
+100135,2024-01-05 06:03:00,1138,Aspiradora,Hogar,39.23,2,Madrid,web,0.21,25.11
+100279,2024-01-05 17:27:00,1026,Aspiradora,Hogar,58.47,3,Málaga,tienda,0.05,39.66
+100345,2024-01-05 18:58:00,1129,Botella Agua,Deporte,36.75,3,Sevilla,web,0.17,28.29
+100044,2024-01-05 22:13:00,1157,Camiseta,Ropa,43.45,5,Madrid,web,0.11,25.71
+100318,2024-01-06 01:19:00,1026,Monitor,Electrónica,70.25,4,Bilbao,web,0.35,37.24
+100294,2024-01-07 02:46:00,1130,Esterilla,Deporte,52.21,2,Barcelona,tienda,0.26,33.29
+100427,2024-01-07 09:06:00,1133,Tostadora,Hogar,58.74,3,Sevilla,web,0.19,36.16
+100331,2024-01-10 04:22:00,1147,Sudadera,Ropa,26.08,1,Valladolid,web,0.3,15.9
+100480,2024-01-12 15:23:00,1023,Aspiradora,Hogar,32.79,2,Valladolid,web,,19.21
+100366,2024-01-15 07:04:00,1178,Sudadera,Ropa,24.5,5,Zaragoza,web,0.0,15.02
+100297,2024-01-15 22:36:00,1123,Ensayo,Libros,22.76,3,Madrid,web,0.18,11.73
+100161,2024-01-16 23:15:00,1097,Mancuernas,Deporte,47.19,5,Madrid,tienda,0.14,28.06
+100185,2024-01-19 16:35:00,1187,Cómic,Libros,11.57,4,Murcia,web,0.19,9.22
+100408,2024-01-19 17:00:00,1008,Ratón,Electrónica,107.0,1,Sevilla,tienda,0.04,61.87
+100002,2024-01-21 06:57:00,1119,Tostadora,Hogar,27.76,3,Bilbao,web,,18.65
+100014,2024-01-21 08:38:00,1169,Lampara LED,Hogar,43.55,4,Málaga,tienda,0.06,29.69
+100373,2024-01-23 14:25:00,1159,Cómic,Libros,18.19,4,Barcelona,tienda,0.35,10.5
+100302,2024-01-25 03:09:00,1162,Ensayo,Libros,23.06,4,Madrid,web,0.26,12.4
+100396,2024-01-25 06:51:00,1173,Aspiradora,Hogar,49.25,1,Barcelona,tienda,0.12,33.27
+100191,2024-01-25 19:58:00,1022,Novela,Libros,28.24,5,Madrid,tienda,0.08,20.74
+100298,2024-01-28 09:38:00,1165,Botella Agua,Deporte,22.08,3,,tienda,0.14,14.14
+100055,2024-01-28 11:43:00,1048,Disco SSD,Electrónica,58.53,5,Barcelona,web,0.35,40.86
+100459,2024-01-29 20:10:00,1149,Ensayo,Libros,16.07,1,Sevilla,tienda,0.11,8.55
+100039,2024-02-02 15:54:00,1176,Ensayo,Libros,11.2,3,Sevilla,web,0.26,7.91
+100448,2024-02-03 16:36:00,1172,Zapatillas,Ropa,36.96,2,Sevilla,web,0.09,24.62
+100020,2024-02-04 13:16:00,1159,Sudadera,Ropa,23.83,2,Valencia,web,0.05,17.12
+100170,2024-02-04 22:16:00,1096,Esterilla,Deporte,39.57,5,Barcelona,web,0.12,30.1
+100126,2024-02-05 12:19:00,1136,Ensayo,Libros,25.12,4,Bilbao,web,0.14,13.33
+100087,2024-02-06 22:08:00,1106,Tostadora,Hogar,57.57,5,Málaga,tienda,0.03,28.83
+100112,2024-02-06 23:28:00,1119,Auriculares,Electrónica,90.83,2,Bilbao,web,0.14,56.95
+100103,2024-02-07 05:44:00,1122,Botella Agua,Deporte,51.66,2,Valencia,web,0.2,33.9
+100194,2024-02-08 12:52:00,1159,Pantalón,Ropa,33.51,4,Bilbao,web,0.16,17.69
+100232,2024-02-10 03:26:00,1067,Sudadera,Ropa,37.79,2,Málaga,app,,26.19
+100195,2024-02-11 06:13:00,1106,Cafetera,Hogar,61.25,2,Madrid,tienda,0.19,37.96
+100473,2024-02-11 06:34:00,1134,Cómic,Libros,26.44,5,Valencia,web,0.13,17.17
+100347,2024-02-11 17:39:00,1071,Ensayo,Libros,17.1,1,Barcelona,tienda,0.25,9.24
+100167,2024-02-12 11:28:00,1079,Lampara LED,Hogar,50.06,4,Valencia,web,0.14,38.52
+100478,2024-02-13 16:16:00,1185,Esterilla,Deporte,35.86,3,Barcelona,web,0.12,20.49
+100487,2024-02-16 09:15:00,1187,Mancuernas,Deporte,42.33,4,Barcelona,web,0.14,29.84
+100400,2024-02-18 06:16:00,1118,Camiseta,Ropa,19.09,3,Bilbao,tienda,0.24,13.11
+100420,2024-02-20 00:27:00,1083,Ensayo,Libros,25.98,1,Sevilla,tienda,0.3,20.03
+100381,2024-02-20 13:39:00,1159,Esterilla,Deporte,42.21,2,Madrid,web,0.06,30.14
+100278,2024-02-20 18:20:00,1021,Esterilla,Deporte,40.36,2,Madrid,tienda,0.25,20.19
+100131,2024-02-20 21:57:00,1008,Zapatillas,Ropa,43.78,5,Murcia,web,0.19,27.47
+100271,2024-02-22 01:12:00,1156,Esterilla,Deporte,42.45,4,Valladolid,web,0.25,30.17
+100435,2024-02-22 11:34:00,1187,Altavoz BT,Electrónica,75.26,1,Zaragoza,web,0.06,50.76
+100133,2024-02-23 10:59:00,1024,Botella Agua,Deporte,20.2,2,Valladolid,web,0.19,11.21
+100258,2024-02-23 11:04:00,1159,Cómic,Libros,29.84,4,Sevilla,web,0.05,16.51
+100463,2024-02-24 14:23:00,1104,Ensayo,Libros,9.03,3,Madrid,tienda,0.06,5.09
+100415,2024-02-24 17:06:00,1007,Teclado,Electrónica,86.56,5,Málaga,tienda,0.15,54.9
+100143,2024-02-27 00:46:00,1145,Webcam,Electrónica,68.49,4,Madrid,web,0.17,51.03
+100140,2024-02-27 22:25:00,1132,Webcam,Electrónica,138.94,4,Málaga,web,0.17,80.93
+100032,2024-03-05 06:08:00,1009,Cómic,Libros,17.19,4,Bilbao,web,0.27,10.06
+100303,2024-03-07 08:44:00,1063,Monitor,Electrónica,116.51,4,Málaga,app,0.1,71.61
+100270,2024-03-09 01:05:00,1028,Botella Agua,Deporte,36.29,4,Barcelona,web,0.23,28.07
+100190,2024-03-09 02:11:00,1030,Pantalón,Ropa,24.44,5,Valencia,tienda,0.23,13.78
+100150,2024-03-09 14:48:00,1080,Mancuernas,Deporte,44.96,3,Valencia,web,0.22,28.54
+100370,2024-03-09 19:10:00,1075,Teclado,Electrónica,60.85,5,Bilbao,tienda,0.12,48.37
+100208,2024-03-10 18:43:00,1045,Sudadera,Ropa,25.31,3,Barcelona,web,0.08,14.98
+100284,2024-03-13 14:56:00,1091,Tostadora,Hogar,48.27,3,Zaragoza,app,0.18,27.76
+100319,2024-03-15 03:14:00,1173,Altavoz BT,Electrónica,52.1,1,Sevilla,web,0.1,34.01
+100392,2024-03-15 05:01:00,1193,Lampara LED,Hogar,56.61,3,Murcia,web,0.35,38.63
+100445,2024-03-15 05:17:00,1146,Esterilla,Deporte,35.87,5,Sevilla,web,0.1,26.6
+100187,2024-03-16 08:06:00,1132,Auriculares,Electrónica,47.55,1,Murcia,tienda,0.01,24.66
+100346,2024-03-18 03:24:00,1087,Camiseta,Ropa,32.93,4,Málaga,tienda,0.16,22.63
+100283,2024-03-18 12:26:00,1183,Camiseta,Ropa,30.32,3,Valladolid,web,0.3,17.14
+100219,2024-03-20 21:20:00,1069,Esterilla,Deporte,36.19,3,Madrid,web,0.21,18.47
+100066,2024-03-21 16:01:00,1038,Camiseta,Ropa,23.41,4,Bilbao,app,0.17,17.25
+100482,2024-03-21 22:36:00,1036,Zapatillas,Ropa,22.1,3,Valencia,tienda,0.11,17.32
+100401,2024-03-24 08:48:00,1171,Webcam,Electrónica,107.25,3,Valladolid,web,0.15,83.69
+100250,2024-03-25 13:08:00,1124,Sudadera,Ropa,31.74,1,Málaga,tienda,0.35,17.77
+100489,2024-03-26 06:13:00,1049,Teclado,Electrónica,105.36,5,Málaga,tienda,0.06,78.63
+100149,2024-03-26 13:27:00,1196,Cafetera,Hogar,51.93,3,Madrid,tienda,0.03,27.5
+100171,2024-03-30 07:28:00,1058,Teclado,Electrónica,101.41,3,Zaragoza,tienda,0.31,56.0
+100328,2024-03-30 13:37:00,1059,Cómic,Libros,20.25,4,Valencia,web,0.11,10.38
+100151,2024-04-03 13:51:00,1113,Cómic,Libros,14.42,5,Bilbao,web,0.35,11.28
+100254,2024-04-04 07:38:00,1032,Cafetera,Hogar,18.08,2,Sevilla,app,,13.8
+100274,2024-04-04 10:53:00,1031,Esterilla,Deporte,24.25,1,Madrid,tienda,0.11,13.08
+100336,2024-04-04 16:04:00,1016,Botella Agua,Deporte,30.91,4,Sevilla,web,0.06,24.71
+100144,2024-04-05 21:47:00,1197,Disco SSD,Electrónica,87.59,3,Murcia,app,0.06,55.58
+100422,2024-04-05 23:13:00,1110,Camiseta,Ropa,35.94,1,Valencia,web,0.19,19.01
+100179,2024-04-05 23:22:00,1180,Camiseta,Ropa,39.84,4,Valencia,tienda,0.2,24.86
+100114,2024-04-08 00:51:00,1088,Camiseta,Ropa,30.03,5,Bilbao,tienda,0.18,21.62
+100041,2024-04-08 11:39:00,1172,Camiseta,Ropa,16.39,2,Barcelona,tienda,0.14,11.58
+100178,2024-04-08 15:35:00,1088,Zapatillas,Ropa,29.28,5,Murcia,web,0.27,15.31
+100157,2024-04-09 01:51:00,1185,Aspiradora,Hogar,45.92,4,Valladolid,web,0.22,26.7
+100005,2024-04-09 07:23:00,1152,Esterilla,Deporte,33.67,5,Málaga,web,0.01,20.39
+100262,2024-04-12 05:59:00,1173,Cafetera,Hogar,35.51,4,Sevilla,tienda,0.06,23.91
+100000,2024-04-12 19:28:00,1038,Auriculares,Electrónica,94.39,5,Málaga,app,0.18,68.06
+100120,2024-04-13 00:08:00,1010,Monitor,Electrónica,76.4,3,Zaragoza,web,0.12,41.06
+100353,2024-04-13 18:38:00,1063,Ensayo,Libros,6.33,4,Barcelona,web,0.35,3.32
+100244,2024-04-14 02:00:00,1013,Cómic,Libros,11.75,1,Valencia,web,0.15,5.94
+100023,2024-04-15 03:53:00,1038,Monitor,Electrónica,105.75,3,Murcia,web,0.16,65.6
+100138,2024-04-15 18:16:00,1037,Mancuernas,Deporte,40.49,1,Sevilla,tienda,0.1,21.85
+100475,2024-04-17 11:50:00,1048,Esterilla,Deporte,39.05,2,Murcia,web,0.02,28.09
+100305,2024-04-20 21:33:00,1023,Lampara LED,Hogar,53.45,1,Valladolid,web,0.12,40.44
+100273,2024-04-20 22:54:00,1115,Esterilla,Deporte,32.71,1,Valladolid,web,0.28,20.69
+100461,2024-04-22 06:39:00,1095,Novela,Libros,15.78,2,Murcia,tienda,0.3,8.7
+100063,2024-04-22 16:57:00,1170,Mancuernas,Deporte,17.42,5,Barcelona,tienda,0.32,8.88
+100411,2024-04-22 17:29:00,1102,Novela,Libros,8.73,4,Valencia,web,0.35,6.89
+100440,2024-04-24 16:13:00,1011,Tostadora,Hogar,65.85,5,Valladolid,tienda,0.23,40.01
+100216,2024-04-26 05:57:00,1087,Esterilla,Deporte,19.25,4,Zaragoza,web,0.09,10.36
+100256,2024-04-27 02:58:00,1110,Cómic,Libros,5.0,4,Barcelona,web,0.06,3.97
+100363,2024-04-27 05:12:00,1168,Pantalón,Ropa,31.67,2,Valencia,web,0.11,24.77
+100320,2024-04-27 16:29:00,1049,Mancuernas,Deporte,32.56,3,Valencia,web,,16.52
+100239,2024-04-28 23:32:00,1117,Cómic,Libros,19.81,3,Valladolid,web,0.02,15.6
+100139,2024-04-29 18:27:00,1071,Camiseta,Ropa,31.86,3,Zaragoza,web,0.1,24.41
+100072,2024-05-02 16:37:00,1061,Pantalón,Ropa,29.07,5,Sevilla,web,0.07,14.66
+100272,2024-05-05 10:42:00,1074,Cómic,Libros,7.37,4,Madrid,web,0.12,4.81
+100142,2024-05-06 08:11:00,1089,Mancuernas,Deporte,37.67,2,Zaragoza,tienda,0.08,28.52
+100379,2024-05-06 09:48:00,1160,Esterilla,Deporte,41.03,4,Valencia,web,0.1,32.25
+100439,2024-05-07 16:49:00,1086,Webcam,Electrónica,94.01,5,Valladolid,web,0.1,57.2
+100446,2024-05-07 20:41:00,1054,Novela,Libros,19.69,2,Madrid,app,0.12,11.85
+100368,2024-05-09 18:50:00,1040,Camiseta,Ropa,41.2,4,Bilbao,web,0.19,23.98
+100069,2024-05-09 20:43:00,1045,Altavoz BT,Electrónica,60.56,2,Valencia,tienda,0.31,41.57
+100498,2024-05-10 04:42:00,1078,Tostadora,Hogar,51.91,3,Madrid,web,0.23,35.04
+100013,2024-05-10 04:50:00,1054,Disco SSD,Electrónica,89.09,5,Valencia,tienda,0.35,58.28
+100474,2024-05-10 17:36:00,1075,Altavoz BT,Electrónica,56.18,1,Zaragoza,web,0.11,32.74
+100006,2024-05-10 21:52:00,1140,Auriculares,Electrónica,97.98,3,Murcia,web,0.05,62.1
+100038,2024-05-14 08:07:00,1064,Lampara LED,Hogar,74.56,4,Madrid,web,0.14,53.29
+100389,2024-05-16 09:51:00,1153,Altavoz BT,Electrónica,88.74,4,Sevilla,tienda,0.32,58.65
+100491,2024-05-16 18:47:00,1178,Altavoz BT,Electrónica,54.04,5,Zaragoza,web,0.31,30.08
+100315,2024-05-16 22:02:00,1052,Sudadera,Ropa,42.11,1,Sevilla,web,0.17,33.34
+100268,2024-05-17 23:16:00,1014,Novela,Libros,18.47,5,Barcelona,web,0.08,13.12
+100329,2024-05-18 03:12:00,1121,Webcam,Electrónica,105.83,4,Barcelona,tienda,0.14,59.48
+100327,2024-05-19 14:00:00,1023,Tostadora,Hogar,58.94,3,Valladolid,web,0.2,40.7
+100405,2024-05-20 22:50:00,1194,Zapatillas,Ropa,36.2,5,Sevilla,web,0.1,23.76
+100224,2024-05-22 00:52:00,1155,Mancuernas,Deporte,31.57,5,Barcelona,tienda,0.02,24.22
+100351,2024-05-24 00:46:00,1020,Aspiradora,Hogar,62.71,5,Málaga,web,0.12,41.14
+100301,2024-05-24 12:19:00,1188,Aspiradora,Hogar,37.43,1,Bilbao,web,0.14,29.19
+100304,2024-05-25 14:35:00,1024,Zapatillas,Ropa,18.53,5,Madrid,web,0.16,9.42
+100079,2024-05-27 06:51:00,1071,Teclado,Electrónica,73.77,1,Sevilla,web,0.21,56.69
+100466,2024-05-27 18:34:00,1155,Cómic,Libros,15.1,1,Barcelona,tienda,0.25,8.87
+100402,2024-05-27 21:21:00,1048,Pantalón,Ropa,26.85,5,Madrid,web,0.28,15.09
+100193,2024-05-30 15:56:00,1137,Camiseta,Ropa,26.29,4,Valladolid,tienda,0.13,15.2
+100428,2024-05-30 20:18:00,1057,Cafetera,Hogar,47.78,1,Murcia,web,0.13,29.88
+100496,2024-05-31 02:43:00,1097,Cómic,Libros,19.92,4,Valencia,web,0.14,10.7
+100090,2024-05-31 21:55:00,1002,Esterilla,Deporte,28.65,1,Barcelona,web,0.24,14.8
+100449,2024-06-01 05:57:00,1135,Zapatillas,Ropa,40.1,5,Zaragoza,app,0.02,27.12
+100255,2024-06-02 01:53:00,1133,Teclado,Electrónica,109.24,3,,web,0.02,63.44
+100148,2024-06-02 15:50:00,1027,Webcam,Electrónica,67.03,2,Barcelona,web,0.12,45.05
+100119,2024-06-03 09:01:00,1097,Novela,Libros,11.62,3,Sevilla,web,0.07,6.38
+100399,2024-06-04 17:20:00,1105,Mancuernas,Deporte,56.45,1,Málaga,tienda,,30.25
+100367,2024-06-05 14:03:00,1087,Botella Agua,Deporte,47.54,3,Zaragoza,app,0.06,37.53
+100031,2024-06-05 14:44:00,1120,Ensayo,Libros,13.9,1,Murcia,app,0.24,9.21
+100438,2024-06-06 23:58:00,1011,Lampara LED,Hogar,55.25,4,Málaga,tienda,0.18,35.49
+100364,2024-06-07 14:35:00,1135,Novela,Libros,19.27,4,Valladolid,tienda,0.01,10.69
+100051,2024-06-08 06:58:00,1192,Esterilla,Deporte,35.46,2,Zaragoza,tienda,0.06,24.14
+100163,2024-06-08 19:23:00,1090,Aspiradora,Hogar,30.4,2,Madrid,web,0.09,21.41
+100116,2024-06-09 02:17:00,1067,Lampara LED,Hogar,53.4,4,Bilbao,tienda,0.14,35.43
+100097,2024-06-09 03:32:00,1176,Teclado,Electrónica,70.61,2,Valencia,web,0.29,39.66
+100414,2024-06-10 00:22:00,1113,Aspiradora,Hogar,36.87,5,Madrid,web,0.13,19.31
+100096,2024-06-11 15:40:00,1046,Auriculares,Electrónica,98.96,4,Sevilla,web,0.15,77.6
+100203,2024-06-13 05:18:00,1076,Aspiradora,Hogar,28.08,1,Valencia,web,0.26,15.25
+100453,2024-06-16 01:11:00,1031,Sudadera,Ropa,5.0,1,Valladolid,web,0.15,3.86
+100333,2024-06-16 01:19:00,1014,Aspiradora,Hogar,27.34,1,Valladolid,app,0.11,19.43
+100201,2024-06-16 09:08:00,1099,Aspiradora,Hogar,68.16,1,Madrid,app,0.03,35.19
+100050,2024-06-19 03:12:00,1175,Aspiradora,Hogar,38.03,4,Murcia,web,0.13,22.76
+100332,2024-06-20 01:12:00,1045,Cafetera,Hogar,56.02,5,Málaga,web,0.07,29.75
+100211,2024-06-21 12:49:00,1016,Lampara LED,Hogar,56.12,5,Valencia,web,0.11,38.35
+100218,2024-06-21 14:20:00,1162,Pantalón,Ropa,29.89,1,Murcia,tienda,0.29,17.63
+100398,2024-06-25 10:21:00,1142,Altavoz BT,Electrónica,78.9,5,Zaragoza,web,0.1,40.19
+100395,2024-06-27 21:23:00,1089,Aspiradora,Hogar,40.02,1,Valladolid,web,0.23,29.16
+100209,2024-06-30 06:26:00,1154,Tostadora,Hogar,47.77,5,Sevilla,web,0.18,30.81
+100385,2024-06-30 22:56:00,1157,Sudadera,Ropa,20.86,1,,tienda,0.1,15.22
+100499,2024-07-01 22:43:00,1161,Ratón,Electrónica,59.47,1,,web,0.1,42.84
+100497,2024-07-06 12:33:00,1065,Lampara LED,Hogar,45.66,3,Barcelona,app,0.11,24.52
+100180,2024-07-08 04:11:00,1169,Altavoz BT,Electrónica,48.52,3,Murcia,web,0.27,34.14
+100011,2024-07-08 14:50:00,1125,Lampara LED,Hogar,64.5,5,Barcelona,tienda,0.2,32.73
+100115,2024-07-09 20:31:00,1072,Tostadora,Hogar,66.88,4,Murcia,tienda,0.18,50.29
+100202,2024-07-12 04:28:00,1001,Cómic,Libros,8.89,4,Sevilla,tienda,0.23,4.49
+100410,2024-07-12 21:27:00,1072,Monitor,Electrónica,87.07,4,Sevilla,web,0.05,43.55
+100100,2024-07-13 16:32:00,1019,Mancuernas,Deporte,20.92,1,Valencia,web,0.04,13.88
+100277,2024-07-13 17:57:00,1083,Aspiradora,Hogar,43.44,5,Zaragoza,web,0.04,33.51
+100173,2024-07-14 20:49:00,1047,Altavoz BT,Electrónica,96.34,2,Valencia,tienda,0.02,64.92
+100354,2024-07-16 05:02:00,1081,Cómic,Libros,19.98,3,Valencia,web,0.26,14.02
+100074,2024-07-16 21:10:00,1152,Cafetera,Hogar,54.02,2,Valladolid,web,0.29,42.83
+100484,2024-07-18 17:24:00,1107,Altavoz BT,Electrónica,66.02,1,Valladolid,web,0.14,44.57
+100076,2024-07-19 05:15:00,1051,Novela,Libros,20.02,1,Sevilla,web,0.17,11.26
+100220,2024-07-21 04:35:00,1157,Auriculares,Electrónica,100.84,2,Málaga,web,0.1,69.63
+100260,2024-07-25 04:20:00,1057,Ensayo,Libros,20.01,1,Murcia,web,0.34,12.65
+100089,2024-07-26 02:19:00,1168,Zapatillas,Ropa,31.86,2,Valencia,tienda,0.35,24.59
+100376,2024-07-28 00:46:00,1085,Pantalón,Ropa,28.1,4,Sevilla,tienda,0.18,14.47
+100393,2024-07-28 01:26:00,1165,Sudadera,Ropa,10.83,4,Zaragoza,web,0.12,5.69
+100285,2024-08-01 14:55:00,1020,Lampara LED,Hogar,31.91,2,Bilbao,web,0.07,23.92
+100197,2024-08-02 10:10:00,1157,Botella Agua,Deporte,32.13,3,Murcia,web,0.35,21.02
+100292,2024-08-03 01:44:00,1184,Cómic,Libros,14.96,1,Sevilla,tienda,0.11,8.15
+100365,2024-08-03 19:55:00,1010,Sudadera,Ropa,29.84,5,Madrid,web,0.35,20.0
+100472,2024-08-04 10:39:00,1096,Disco SSD,Electrónica,118.55,2,Barcelona,web,0.29,65.83
+100030,2024-08-04 12:40:00,1183,Cafetera,Hogar,34.65,4,Barcelona,app,0.25,27.7
+100375,2024-08-05 12:39:00,1053,Auriculares,Electrónica,97.03,4,Madrid,web,0.27,48.93
+100153,2024-08-05 15:20:00,1044,Esterilla,Deporte,33.42,3,Valencia,web,0.05,19.11
+100110,2024-08-07 13:52:00,1159,Cómic,Libros,18.23,2,Murcia,tienda,0.14,11.92
+100212,2024-08-07 19:27:00,1103,Sudadera,Ropa,45.21,1,Murcia,tienda,0.09,35.95
+100067,2024-08-07 21:22:00,1183,Zapatillas,Ropa,34.55,1,Bilbao,tienda,0.11,25.3
+100196,2024-08-10 04:34:00,1180,Zapatillas,Ropa,36.13,3,Bilbao,web,0.1,22.61
+100158,2024-08-10 09:57:00,1066,Ensayo,Libros,31.75,1,Murcia,tienda,0.07,15.91
+100493,2024-08-10 19:38:00,1104,Sudadera,Ropa,29.86,2,Barcelona,web,0.15,17.33
+100241,2024-08-11 14:48:00,1021,Cómic,Libros,31.31,2,Bilbao,web,0.18,22.39
+100068,2024-08-12 00:18:00,1062,Lampara LED,Hogar,53.1,5,Bilbao,web,0.13,30.02
+100061,2024-08-12 18:41:00,1036,Esterilla,Deporte,39.2,3,Zaragoza,web,0.08,19.83
+100326,2024-08-12 19:48:00,1180,Mancuernas,Deporte,18.91,4,Málaga,web,0.2,14.25
+100221,2024-08-14 18:19:00,1198,Esterilla,Deporte,16.14,4,Barcelona,web,0.09,12.23
+100462,2024-08-14 21:33:00,1055,Ensayo,Libros,10.2,5,Zaragoza,web,0.01,6.47
+100343,2024-08-16 13:59:00,1062,Zapatillas,Ropa,28.95,4,Zaragoza,web,0.18,15.53
+100358,2024-08-18 03:28:00,1031,Novela,Libros,14.74,5,Zaragoza,web,0.2,10.97
+100037,2024-08-18 08:27:00,1132,Tostadora,Hogar,50.73,2,Madrid,web,0.19,38.12
+100088,2024-08-20 02:18:00,1056,Zapatillas,Ropa,26.99,4,Valencia,web,0.11,21.46
+100223,2024-08-20 16:13:00,1062,Cómic,Libros,21.75,1,Barcelona,tienda,0.15,13.42
+100442,2024-08-24 06:08:00,1024,Auriculares,Electrónica,96.48,4,Bilbao,web,0.32,65.15
+100419,2024-08-26 04:02:00,1061,Lampara LED,Hogar,32.31,1,Zaragoza,web,0.12,25.47
+100238,2024-08-29 12:04:00,1137,Lampara LED,Hogar,50.74,1,Madrid,app,0.18,38.8
+100316,2024-08-30 07:36:00,1007,Ensayo,Libros,7.5,1,Valladolid,web,0.16,3.76
+100052,2024-08-30 21:27:00,1180,Esterilla,Deporte,22.01,2,Madrid,tienda,0.17,13.13
+100467,2024-08-31 10:16:00,1034,Ensayo,Libros,19.64,1,Bilbao,tienda,0.13,10.3
+100121,2024-09-02 15:38:00,1104,Mancuernas,Deporte,17.84,1,Valencia,app,0.02,10.88
+100147,2024-09-03 02:11:00,1175,Lampara LED,Hogar,62.74,3,Valencia,web,0.04,32.84
+100028,2024-09-08 07:20:00,1184,Aspiradora,Hogar,23.15,4,Murcia,app,0.05,12.34
+100289,2024-09-09 19:14:00,1083,Esterilla,Deporte,48.19,3,Valencia,tienda,0.29,33.31
+100093,2024-09-10 02:47:00,1004,Camiseta,Ropa,36.25,5,Bilbao,web,0.23,20.94
+100361,2024-09-10 03:21:00,1032,Ensayo,Libros,21.11,1,Sevilla,web,0.03,16.69
+100155,2024-09-10 04:22:00,1092,Pantalón,Ropa,40.37,2,Málaga,web,0.07,25.93
+100371,2024-09-10 09:39:00,1120,Ensayo,Libros,17.22,3,Zaragoza,app,0.03,11.38
+100236,2024-09-12 04:46:00,1149,Cómic,Libros,16.72,4,Málaga,web,0.17,9.23
+100434,2024-09-12 08:33:00,1040,Zapatillas,Ropa,32.21,5,Barcelona,app,0.23,24.35
+100288,2024-09-13 07:48:00,1186,Ensayo,Libros,9.06,3,Madrid,tienda,0.27,7.07
+100162,2024-09-14 16:27:00,1039,Webcam,Electrónica,68.89,1,Madrid,tienda,0.08,50.8
+100330,2024-09-15 00:05:00,1130,Lampara LED,Hogar,43.35,2,Valencia,web,0.35,33.71
+100059,2024-09-15 06:05:00,1139,Mancuernas,Deporte,32.76,3,Valencia,tienda,0.3,25.72
+100084,2024-09-19 15:25:00,1116,Lampara LED,Hogar,31.63,1,Barcelona,tienda,0.09,24.47
+100421,2024-09-20 01:34:00,1061,Zapatillas,Ropa,25.54,5,Murcia,tienda,0.33,18.11
+100134,2024-09-20 20:59:00,1004,Novela,Libros,15.48,4,Zaragoza,tienda,0.2,7.77
+100412,2024-09-20 22:38:00,1159,Botella Agua,Deporte,29.33,1,Valladolid,tienda,0.24,22.74
+100485,2024-09-24 14:58:00,1125,Mancuernas,Deporte,33.2,4,Bilbao,web,0.11,21.21
+100137,2024-09-25 17:59:00,1123,Botella Agua,Deporte,59.64,2,Valencia,app,0.19,33.87
+100026,2024-09-26 15:14:00,1189,Mancuernas,Deporte,35.18,4,Sevilla,tienda,,18.91
+100001,2024-09-27 10:07:00,1014,Pantalón,Ropa,40.2,1,Bilbao,app,0.06,26.14
+100146,2024-09-28 06:04:00,1059,Mancuernas,Deporte,35.96,1,Valladolid,web,0.33,20.33
+100299,2024-09-29 06:21:00,1014,Botella Agua,Deporte,32.27,2,Murcia,tienda,0.09,24.39
+100495,2024-09-29 13:30:00,1116,Novela,Libros,22.73,1,Sevilla,app,0.13,12.96
+100183,2024-09-29 16:19:00,1154,Pantalón,Ropa,23.34,3,Valencia,web,0.2,17.06
+100015,2024-09-30 03:24:00,1033,Sudadera,Ropa,23.38,1,Valladolid,web,0.03,16.12
+100296,2024-09-30 05:34:00,1057,Sudadera,Ropa,16.54,3,Valencia,tienda,0.32,9.77
+100176,2024-10-03 03:09:00,1106,Mancuernas,Deporte,30.3,4,Barcelona,web,0.24,15.21
+100312,2024-10-03 05:05:00,1173,Ratón,Electrónica,69.62,5,Madrid,app,0.14,54.95
+100443,2024-10-04 10:45:00,1044,Aspiradora,Hogar,15.12,5,Murcia,web,0.05,11.17
+100182,2024-10-05 02:40:00,1190,Auriculares,Electrónica,54.48,4,Valencia,web,0.09,28.61
+100073,2024-10-06 04:51:00,1076,Aspiradora,Hogar,44.64,3,Barcelona,web,0.13,34.66
+100437,2024-10-06 16:09:00,1013,Botella Agua,Deporte,46.32,3,,tienda,0.22,25.82
+100276,2024-10-07 02:31:00,1174,Ensayo,Libros,19.55,4,Zaragoza,app,0.12,14.87
+100242,2024-10-08 21:58:00,1119,Ratón,Electrónica,73.02,3,Valencia,web,0.22,51.06
+100105,2024-10-09 01:20:00,1177,Ensayo,Libros,23.79,2,Valencia,web,0.13,12.4
+100106,2024-10-10 14:32:00,1081,Cafetera,Hogar,74.86,5,Barcelona,tienda,0.08,55.81
+100430,2024-10-11 17:01:00,1153,Ensayo,Libros,21.22,3,Málaga,web,0.16,12.45
+100452,2024-10-13 05:26:00,1182,Cómic,Libros,19.25,5,Valladolid,web,0.24,14.93
+100118,2024-10-14 14:21:00,1100,Aspiradora,Hogar,46.21,2,Bilbao,web,,26.39
+100423,2024-10-14 23:45:00,1126,Botella Agua,Deporte,50.07,1,Valladolid,tienda,0.28,29.15
+100465,2024-10-15 03:46:00,1130,Aspiradora,Hogar,59.52,4,Zaragoza,tienda,0.11,45.43
+100036,2024-10-15 04:41:00,1083,Webcam,Electrónica,58.71,4,Murcia,web,0.03,33.94
+100357,2024-10-15 19:29:00,1165,Ratón,Electrónica,76.87,1,Murcia,web,0.02,43.41
+100344,2024-10-17 20:36:00,1116,Camiseta,Ropa,34.19,5,Madrid,tienda,0.01,23.59
+100369,2024-10-18 10:26:00,1144,Mancuernas,Deporte,11.87,1,Bilbao,web,0.21,7.36
+100458,2024-10-18 18:25:00,1145,Botella Agua,Deporte,30.19,4,Sevilla,tienda,0.12,22.1
+100348,2024-10-21 07:13:00,1138,Monitor,Electrónica,99.41,5,Valladolid,tienda,0.23,53.16
+100460,2024-10-22 10:35:00,1036,Lampara LED,Hogar,39.68,4,Valladolid,tienda,0.17,29.11
+100471,2024-10-22 16:00:00,1190,Sudadera,Ropa,24.0,1,Zaragoza,tienda,0.11,14.0
+100382,2024-10-23 21:10:00,1096,Cómic,Libros,17.61,3,Zaragoza,tienda,0.04,13.13
+100324,2024-10-26 04:05:00,1191,Teclado,Electrónica,56.16,3,Bilbao,web,0.35,44.86
+100207,2024-10-27 03:35:00,1012,Lampara LED,Hogar,42.1,5,Valladolid,web,0.25,24.13
+100169,2024-10-28 01:50:00,1091,Camiseta,Ropa,21.78,3,Málaga,app,0.07,17.29
+100374,2024-10-28 10:11:00,1079,Ensayo,Libros,14.31,4,Zaragoza,tienda,0.2,10.17
+100290,2024-10-29 23:21:00,1005,Novela,Libros,24.18,3,,tienda,0.1,18.61
+100086,2024-10-30 11:04:00,1073,Zapatillas,Ropa,15.48,2,Bilbao,tienda,0.28,8.51
+100263,2024-11-01 01:17:00,1028,Disco SSD,Electrónica,90.42,2,Málaga,web,0.12,61.42
+100257,2024-11-01 11:00:00,1078,Monitor,Electrónica,80.68,1,Barcelona,tienda,0.21,49.61
+100265,2024-11-03 05:32:00,1098,Lampara LED,Hogar,37.95,5,Barcelona,web,0.08,19.31
+100390,2024-11-08 20:25:00,1149,Botella Agua,Deporte,26.3,2,Málaga,web,0.26,19.93
+100417,2024-11-08 22:02:00,1177,Cómic,Libros,20.9,2,Murcia,web,0.34,10.55
+100310,2024-11-10 12:05:00,1071,Novela,Libros,20.54,3,,tienda,0.17,12.16
+100016,2024-11-11 13:49:00,1157,Tostadora,Hogar,42.3,5,Bilbao,web,0.09,27.84
+100231,2024-11-11 17:27:00,1095,Novela,Libros,16.48,4,Murcia,app,0.17,8.38
+100337,2024-11-13 11:49:00,1125,Ensayo,Libros,20.99,3,Barcelona,web,,15.9
+100406,2024-11-13 16:44:00,1122,Ensayo,Libros,20.01,5,Valladolid,web,0.35,14.02
+100309,2024-11-15 01:58:00,1026,Auriculares,Electrónica,55.33,4,Bilbao,tienda,0.21,34.8
+100334,2024-11-16 04:08:00,1152,Webcam,Electrónica,38.17,5,Barcelona,web,0.19,22.51
+100127,2024-11-16 07:45:00,1194,Novela,Libros,18.47,5,Zaragoza,web,0.27,10.19
+100378,2024-11-19 04:55:00,1147,Aspiradora,Hogar,44.63,3,Valladolid,app,0.28,26.89
+100160,2024-11-20 12:03:00,1039,Cómic,Libros,21.13,5,Madrid,web,0.16,12.78
+100404,2024-11-22 00:31:00,1060,Webcam,Electrónica,131.09,1,Málaga,web,0.26,99.62
+100227,2024-11-25 15:07:00,1036,Altavoz BT,Electrónica,72.8,4,Málaga,tienda,0.25,41.83
+100269,2024-11-25 16:59:00,1118,Cómic,Libros,20.95,5,Murcia,web,0.23,10.83
+100479,2024-11-25 22:48:00,1188,Novela,Libros,25.06,5,Zaragoza,web,0.18,16.21
+100338,2024-11-29 20:55:00,1083,Cafetera,Hogar,59.74,3,Valladolid,tienda,0.2,37.18
+100264,2024-11-30 18:33:00,1003,Novela,Libros,21.12,1,Murcia,web,0.09,15.24
+100490,2024-11-30 20:06:00,1176,Monitor,Electrónica,90.94,2,Málaga,tienda,0.12,57.17
+100266,2024-11-30 22:41:00,1140,Webcam,Electrónica,69.58,3,Málaga,tienda,0.24,46.09
+100095,2024-12-03 01:53:00,1053,Tostadora,Hogar,55.37,2,Málaga,web,0.09,30.95
+100029,2024-12-03 14:52:00,1015,Disco SSD,Electrónica,117.1,4,Málaga,web,0.18,65.68
+100481,2024-12-04 07:30:00,1147,Mancuernas,Deporte,31.82,2,Sevilla,web,,22.81
+100056,2024-12-05 10:57:00,1120,Disco SSD,Electrónica,58.85,4,Bilbao,tienda,0.14,43.71
+100018,2024-12-05 14:59:00,1140,Monitor,Electrónica,117.01,5,Barcelona,web,0.03,82.51
+100184,2024-12-07 12:58:00,1165,Pantalón,Ropa,35.03,1,Barcelona,web,0.18,24.14
+100205,2024-12-07 19:16:00,1038,Novela,Libros,9.62,2,Murcia,web,0.13,6.91
+100451,2024-12-07 20:26:00,1052,Mancuernas,Deporte,39.99,3,,app,0.09,28.71
+100033,2024-12-09 00:43:00,1157,Pantalón,Ropa,38.96,1,Málaga,web,0.22,31.11
+100007,2024-12-09 11:29:00,1160,Teclado,Electrónica,62.79,2,Valladolid,web,0.07,44.05
+100017,2024-12-11 20:01:00,1012,Camiseta,Ropa,22.37,2,Zaragoza,tienda,0.18,15.09
+100230,2024-12-13 03:25:00,1147,Aspiradora,Hogar,32.67,5,Málaga,web,0.16,22.48
+100057,2024-12-13 06:32:00,1087,Teclado,Electrónica,118.78,2,Murcia,web,0.05,83.37
+100215,2024-12-13 16:24:00,1191,Esterilla,Deporte,18.85,3,Valencia,web,0.14,12.25
+100077,2024-12-14 02:19:00,1003,Ratón,Electrónica,92.17,3,Madrid,web,0.24,66.93
+100416,2024-12-14 07:00:00,1071,Webcam,Electrónica,79.68,1,Valladolid,web,0.23,42.28
+100314,2024-12-15 10:29:00,1092,Lampara LED,Hogar,27.82,4,Madrid,web,0.28,17.91
+100286,2024-12-15 10:47:00,1046,Tostadora,Hogar,54.8,4,Valladolid,app,0.15,35.01
+100136,2024-12-15 14:34:00,1186,Cafetera,Hogar,51.23,1,Valencia,web,0.16,36.15
+100130,2024-12-19 01:31:00,1169,Monitor,Electrónica,51.52,3,Madrid,web,0.26,27.93
+100447,2024-12-21 08:37:00,1099,Cómic,Libros,19.72,4,Madrid,tienda,0.12,10.19
+100228,2024-12-23 11:23:00,1021,Novela,Libros,17.89,4,Valencia,tienda,0.12,13.83
+100457,2024-12-28 00:50:00,1197,Lampara LED,Hogar,53.36,2,Bilbao,app,0.13,42.34
+100295,2024-12-28 14:59:00,1000,Novela,Libros,17.46,1,Valencia,web,0.11,9.68
+100306,2025-01-03 11:18:00,1011,Cafetera,Hogar,35.11,3,Murcia,tienda,0.15,21.33
+100181,2025-01-03 22:12:00,1099,Ensayo,Libros,18.78,5,Valladolid,web,0.29,10.72
+100387,2025-01-05 07:14:00,1076,Altavoz BT,Electrónica,99.91,1,Zaragoza,tienda,0.09,59.65
+100229,2025-01-07 07:57:00,1195,Botella Agua,Deporte,39.03,2,Murcia,app,0.23,21.32
+100240,2025-01-08 00:17:00,1192,Aspiradora,Hogar,47.1,2,Bilbao,web,0.23,26.27
+100483,2025-01-08 15:05:00,1003,Novela,Libros,22.23,1,Murcia,web,0.17,17.23
+100062,2025-01-08 23:40:00,1060,Esterilla,Deporte,36.55,4,Valencia,web,0.31,23.01
+100102,2025-01-09 21:45:00,1060,Tostadora,Hogar,63.06,2,Sevilla,web,0.17,35.13
+100175,2025-01-10 03:24:00,1012,Sudadera,Ropa,19.85,1,Bilbao,tienda,0.17,10.98
+100311,2025-01-11 00:52:00,1059,Novela,Libros,21.94,4,Bilbao,web,0.06,17.3
+100380,2025-01-12 08:53:00,1167,Cómic,Libros,16.33,2,Zaragoza,web,0.2,12.59
+100164,2025-01-14 00:32:00,1032,Aspiradora,Hogar,47.38,2,Murcia,web,0.04,27.95
+100429,2025-01-15 18:35:00,1021,Cafetera,Hogar,28.73,5,Valladolid,web,0.2,14.75
+100188,2025-01-18 19:18:00,1044,Altavoz BT,Electrónica,96.01,5,Málaga,app,0.19,69.16
+100058,2025-01-19 19:12:00,1195,Lampara LED,Hogar,71.62,1,Murcia,web,,46.49
+100065,2025-01-20 02:48:00,1197,Esterilla,Deporte,13.08,2,,web,0.12,7.36
+100008,2025-01-20 20:32:00,1015,Cafetera,Hogar,67.37,3,Zaragoza,tienda,0.34,40.43
+100355,2025-01-25 18:07:00,1109,Esterilla,Deporte,32.3,1,Zaragoza,tienda,0.18,22.83
+100035,2025-01-26 02:34:00,1102,Aspiradora,Hogar,18.65,5,Bilbao,tienda,0.3,11.79
+100323,2025-01-26 18:44:00,1092,Disco SSD,Electrónica,112.82,1,Madrid,web,0.11,74.46
+100045,2025-01-27 14:14:00,1067,Aspiradora,Hogar,47.4,4,Zaragoza,web,0.2,34.5
+100186,2025-01-30 08:18:00,1006,Cómic,Libros,21.96,3,Madrid,app,0.05,13.25
+100168,2025-01-31 11:30:00,1167,Botella Agua,Deporte,46.23,2,Bilbao,web,0.11,36.09
+100098,2025-02-01 20:47:00,1008,Auriculares,Electrónica,44.74,3,Madrid,web,,30.61
+100128,2025-02-03 13:11:00,1152,Novela,Libros,22.95,4,Málaga,web,0.05,14.44
+100259,2025-02-04 15:46:00,1178,Mancuernas,Deporte,42.15,4,Bilbao,web,0.21,25.52
+100455,2025-02-04 20:27:00,1043,Cafetera,Hogar,32.29,2,Madrid,tienda,0.05,21.26
+100488,2025-02-04 22:25:00,1151,Esterilla,Deporte,25.48,3,Valencia,web,0.22,14.14
+100494,2025-02-05 09:38:00,1163,Ensayo,Libros,22.59,1,Zaragoza,web,0.09,14.81
+100078,2025-02-06 02:18:00,1058,Pantalón,Ropa,31.78,3,Zaragoza,tienda,0.22,18.31
+100384,2025-02-08 13:35:00,1032,Zapatillas,Ropa,29.67,1,Murcia,tienda,0.27,15.95
+100245,2025-02-08 15:54:00,1191,Botella Agua,Deporte,18.85,5,Valladolid,tienda,0.16,13.33
+100464,2025-02-09 04:55:00,1058,Camiseta,Ropa,30.26,4,Barcelona,web,0.13,21.39
+100383,2025-02-10 00:45:00,1001,Esterilla,Deporte,23.8,1,Sevilla,web,0.08,16.66
+100040,2025-02-10 23:36:00,1002,Mancuernas,Deporte,21.39,4,Valencia,web,0.1,16.43
+100124,2025-02-11 12:59:00,1122,Disco SSD,Electrónica,100.52,2,Zaragoza,tienda,0.09,51.91
+100325,2025-02-13 21:03:00,1171,Cafetera,Hogar,52.82,1,Zaragoza,tienda,0.05,39.1
+100360,2025-02-14 22:32:00,1044,Botella Agua,Deporte,46.48,4,Madrid,web,0.11,30.8
+100083,2025-02-18 09:34:00,1053,Mancuernas,Deporte,54.06,5,Madrid,web,0.13,35.03
+100070,2025-02-19 22:03:00,1087,Pantalón,Ropa,25.87,5,Málaga,tienda,0.35,13.31
+100172,2025-02-21 18:40:00,1058,Camiseta,Ropa,35.28,3,Zaragoza,web,0.08,18.13
+100092,2025-02-23 05:39:00,1005,Cafetera,Hogar,61.51,1,Madrid,web,0.17,39.2
+100349,2025-02-25 00:22:00,1063,Zapatillas,Ropa,23.61,5,Murcia,web,0.07,17.78
+100165,2025-03-02 04:11:00,1005,Teclado,Electrónica,86.37,4,Valencia,web,0.11,55.05
+100388,2025-03-06 08:52:00,1115,Aspiradora,Hogar,30.51,5,Madrid,tienda,0.08,22.75
+100247,2025-03-12 22:36:00,1028,Ensayo,Libros,14.12,3,Zaragoza,tienda,0.04,9.74
+100071,2025-03-14 10:55:00,1010,Mancuernas,Deporte,28.76,2,Zaragoza,tienda,0.1,18.55
+100222,2025-03-16 17:46:00,1073,Sudadera,Ropa,41.8,4,Zaragoza,app,0.05,25.22
+100159,2025-03-17 00:55:00,1055,Auriculares,Electrónica,89.91,4,,web,0.08,49.34
+100418,2025-03-18 07:53:00,1091,Botella Agua,Deporte,30.55,3,,web,0.06,20.92
+100252,2025-03-21 00:48:00,1028,Aspiradora,Hogar,49.93,5,Murcia,web,0.08,36.15
+100237,2025-03-25 09:55:00,1144,Pantalón,Ropa,26.43,2,Madrid,web,0.12,18.15
+100470,2025-03-25 20:08:00,1181,Ratón,Electrónica,79.52,3,Zaragoza,web,0.13,47.6
+100152,2025-03-28 11:15:00,1039,Botella Agua,Deporte,26.36,3,Barcelona,tienda,0.12,20.72
+100107,2025-03-28 15:18:00,1061,Altavoz BT,Electrónica,106.69,5,Murcia,web,0.1,64.09
+100454,2025-03-30 09:44:00,1050,Auriculares,Electrónica,73.1,4,Barcelona,tienda,0.09,49.81
+100019,2025-03-30 11:07:00,1017,Ratón,Electrónica,123.31,4,Valencia,tienda,0.15,89.52
+100060,2025-03-31 08:36:00,1186,Ensayo,Libros,18.37,2,,web,0.27,10.84
+100213,2025-03-31 08:38:00,1097,Disco SSD,Electrónica,100.89,4,Valencia,tienda,0.22,61.37
+100027,2025-03-31 13:22:00,1061,Auriculares,Electrónica,77.75,1,Madrid,web,0.13,51.13
+100177,2025-04-01 23:34:00,1044,Pantalón,Ropa,24.73,1,Valladolid,web,,18.34
+100249,2025-04-02 18:16:00,1179,Cafetera,Hogar,45.53,3,Málaga,web,0.23,29.94
+100413,2025-04-02 18:45:00,1040,Teclado,Electrónica,87.54,2,Murcia,tienda,0.35,63.85
+100339,2025-04-03 08:33:00,1008,Botella Agua,Deporte,40.6,2,Valladolid,web,0.12,32.24
+100004,2025-04-03 23:52:00,1092,Mancuernas,Deporte,48.09,3,Valladolid,tienda,0.18,37.57
+100377,2025-04-04 11:35:00,1091,Cómic,Libros,17.37,5,Valencia,web,0.32,11.81
+100101,2025-04-04 18:21:00,1121,Zapatillas,Ropa,40.48,1,Barcelona,tienda,0.33,28.55
+100009,2025-04-04 21:43:00,1169,Mancuernas,Deporte,18.83,2,Bilbao,app,0.06,10.85
+100243,2025-04-05 00:33:00,1049,Pantalón,Ropa,26.33,1,Bilbao,web,0.14,15.88
+100234,2025-04-05 15:28:00,1016,Sudadera,Ropa,36.96,5,Málaga,web,0.28,23.47
+100043,2025-04-06 02:00:00,1119,Zapatillas,Ropa,40.85,1,Madrid,web,0.32,28.93
+100003,2025-04-11 22:10:00,1003,Altavoz BT,Electrónica,42.83,5,,tienda,0.35,23.18
+100192,2025-04-13 03:52:00,1169,Ratón,Electrónica,121.01,2,Sevilla,tienda,0.1,67.9
+100426,2025-04-13 13:30:00,1131,Camiseta,Ropa,28.39,3,Málaga,web,0.21,21.03
+100226,2025-04-15 10:11:00,1078,Aspiradora,Hogar,61.86,3,Barcelona,tienda,0.09,44.2
+100129,2025-04-15 14:27:00,1075,Lampara LED,Hogar,42.84,4,Bilbao,tienda,0.13,27.98
+100432,2025-04-15 22:11:00,1002,Camiseta,Ropa,26.8,3,Murcia,tienda,0.12,14.34
+100034,2025-04-16 10:50:00,1152,Sudadera,Ropa,24.68,4,Sevilla,web,0.14,19.5
+100082,2025-04-17 17:22:00,1062,Novela,Libros,22.53,1,Valladolid,web,0.23,16.89
+100300,2025-04-18 11:24:00,1161,Lampara LED,Hogar,34.61,3,Valencia,tienda,0.1,27.0
+100141,2025-04-18 20:22:00,1175,Cómic,Libros,23.29,1,Sevilla,tienda,0.14,13.21
+100403,2025-04-20 07:48:00,1103,Novela,Libros,20.97,4,Málaga,web,0.2,15.11
+100122,2025-04-21 09:54:00,1183,Altavoz BT,Electrónica,104.54,5,Bilbao,web,0.34,59.46
+100407,2025-04-21 15:39:00,1133,Pantalón,Ropa,44.39,1,Bilbao,web,0.28,33.05
+100024,2025-04-21 17:25:00,1045,Webcam,Electrónica,105.13,1,Valladolid,web,0.02,82.46
+100476,2025-04-22 05:33:00,1093,Novela,Libros,23.77,2,Madrid,web,0.02,12.43
+100469,2025-04-26 08:25:00,1092,Monitor,Electrónica,56.16,2,Zaragoza,tienda,0.28,39.41
+100049,2025-04-29 22:38:00,1152,Pantalón,Ropa,39.8,3,Sevilla,app,0.35,24.0
+100253,2025-05-02 01:27:00,1138,Tostadora,Hogar,63.93,2,Zaragoza,web,0.15,34.76
+100145,2025-05-02 12:52:00,1036,Cafetera,Hogar,44.1,4,Málaga,web,0.35,28.52
+100080,2025-05-03 00:39:00,1147,Mancuernas,Deporte,36.9,5,Bilbao,web,0.12,24.8
+100486,2025-05-03 12:25:00,1019,Aspiradora,Hogar,53.34,3,Valladolid,web,0.22,39.76
+100424,2025-05-05 15:03:00,1006,Disco SSD,Electrónica,83.9,1,Barcelona,web,0.35,50.01
+100199,2025-05-06 16:37:00,1158,Tostadora,Hogar,56.72,1,Bilbao,app,0.17,43.78
+100174,2025-05-07 10:28:00,1168,Mancuernas,Deporte,32.43,3,Zaragoza,tienda,0.25,25.09
+100204,2025-05-10 12:00:00,1011,Cafetera,Hogar,60.69,4,,web,0.14,42.32
+100113,2025-05-11 13:52:00,1124,Cómic,Libros,12.34,3,Málaga,tienda,0.09,7.84
+100492,2025-05-12 22:28:00,1095,Lampara LED,Hogar,27.08,3,Zaragoza,app,0.05,15.83
+100425,2025-05-14 04:53:00,1083,Tostadora,Hogar,33.44,5,Barcelona,web,0.12,24.38
+100436,2025-05-14 21:43:00,1105,Aspiradora,Hogar,27.54,4,Valladolid,tienda,0.25,14.42
+100397,2025-05-15 23:32:00,1121,Aspiradora,Hogar,42.75,5,Bilbao,web,0.16,24.79
+100233,2025-05-16 16:08:00,1191,Altavoz BT,Electrónica,98.34,1,Zaragoza,web,0.23,57.35
+100352,2025-05-17 01:13:00,1017,Botella Agua,Deporte,25.04,1,Sevilla,tienda,0.35,12.8
+100313,2025-05-17 15:03:00,1144,Ensayo,Libros,25.17,5,Murcia,web,0.28,14.77
+100321,2025-05-18 05:50:00,1198,Pantalón,Ropa,20.58,5,Valencia,web,0.22,12.8
+100099,2025-05-18 07:06:00,1098,Camiseta,Ropa,21.91,1,Murcia,web,0.21,12.42
+100125,2025-05-20 06:56:00,1028,Tostadora,Hogar,58.22,4,Zaragoza,web,0.13,29.42
+100189,2025-05-20 14:15:00,1057,Cafetera,Hogar,24.08,5,Málaga,web,0.01,15.81
+100468,2025-05-21 12:42:00,1188,Cómic,Libros,21.97,4,Bilbao,tienda,0.32,12.95
+100094,2025-05-24 02:24:00,1004,Botella Agua,Deporte,33.83,5,Bilbao,app,0.26,25.83
+100206,2025-05-25 06:24:00,1193,Novela,Libros,24.69,2,Málaga,web,0.03,18.17
+100075,2025-05-25 15:15:00,1198,Esterilla,Deporte,29.57,5,Madrid,web,0.1,16.76
+100109,2025-05-26 16:43:00,1002,Ensayo,Libros,27.55,1,Valladolid,web,0.17,18.03
+100281,2025-05-27 04:40:00,1080,Pantalón,Ropa,20.53,3,Barcelona,web,0.26,14.08
+100341,2025-05-27 07:21:00,1175,Camiseta,Ropa,32.89,5,Zaragoza,app,0.17,23.77
+100108,2025-05-30 02:48:00,1144,Ensayo,Libros,6.38,2,Zaragoza,web,0.15,4.29
+100111,2025-06-01 02:59:00,1012,Altavoz BT,Electrónica,74.42,2,Valencia,tienda,0.17,39.6
+100246,2025-06-01 16:04:00,1174,Zapatillas,Ropa,19.02,4,Valladolid,web,0.2,14.9
+100308,2025-06-01 19:25:00,1014,Botella Agua,Deporte,40.15,1,Málaga,web,0.35,28.69
+100200,2025-06-02 13:12:00,1081,Novela,Libros,24.11,3,Valladolid,tienda,0.09,13.05
+100275,2025-06-03 03:39:00,1129,Lampara LED,Hogar,49.07,3,Barcelona,web,0.23,28.82
+100441,2025-06-04 07:01:00,1140,Pantalón,Ropa,38.51,5,Valencia,web,0.11,25.37
+100362,2025-06-05 04:58:00,1101,Monitor,Electrónica,21.59,3,Bilbao,web,0.05,11.75
+100156,2025-06-05 21:04:00,1114,Zapatillas,Ropa,20.98,4,Valencia,web,0.07,16.0
+100431,2025-06-06 09:01:00,1126,Esterilla,Deporte,43.08,3,Bilbao,web,0.02,27.37
+100282,2025-06-07 13:33:00,1125,Sudadera,Ropa,15.77,3,Murcia,tienda,0.16,8.27
+100477,2025-06-07 18:36:00,1158,Aspiradora,Hogar,56.45,3,Madrid,tienda,0.3,39.47
+100291,2025-06-09 22:13:00,1146,Lampara LED,Hogar,17.79,4,Barcelona,web,0.11,11.33
+100293,2025-06-09 23:50:00,1196,Disco SSD,Electrónica,65.56,1,Sevilla,web,0.24,51.07
+100394,2025-06-12 10:58:00,1102,Disco SSD,Electrónica,53.25,2,Bilbao,app,0.09,36.9
+100210,2025-06-14 06:02:00,1112,Altavoz BT,Electrónica,47.71,4,Zaragoza,app,0.3,24.76
+100433,2025-06-15 04:36:00,1126,Aspiradora,Hogar,53.24,5,Sevilla,web,0.25,33.86
+100280,2025-06-17 20:05:00,1194,Novela,Libros,17.67,1,Murcia,web,,12.65
+100123,2025-06-21 02:49:00,1066,Mancuernas,Deporte,12.05,4,Barcelona,web,0.35,6.81
+100042,2025-06-30 00:34:00,1141,Cafetera,Hogar,22.9,2,Valencia,app,0.08,13.4
+100317,2025-07-01 23:30:00,1078,Ensayo,Libros,32.58,1,Valladolid,app,0.17,20.32
+100359,2025-07-03 00:36:00,1010,Cómic,Libros,17.59,4,Zaragoza,web,0.14,9.94
+100372,2025-07-03 05:07:00,1045,Mancuernas,Deporte,44.96,4,Murcia,tienda,0.04,29.26
+100335,2025-07-03 22:34:00,1198,Ratón,Electrónica,79.88,1,Bilbao,tienda,0.09,46.38
+100154,2025-07-04 03:32:00,1061,Pantalón,Ropa,25.85,4,Sevilla,web,0.21,17.76
+100081,2025-07-04 17:39:00,1092,Altavoz BT,Electrónica,98.04,4,Bilbao,tienda,0.21,59.34
+100307,2025-07-07 08:36:00,1017,Cómic,Libros,14.21,4,Málaga,tienda,0.23,9.8
+100046,2025-07-07 12:50:00,1145,Lampara LED,Hogar,38.69,1,Bilbao,tienda,0.15,26.54
+100356,2025-07-07 19:14:00,1094,Pantalón,Ropa,39.1,2,,web,0.24,23.56
+100025,2025-07-09 01:09:00,1028,Sudadera,Ropa,27.34,1,Zaragoza,web,0.13,16.92
+100217,2025-07-09 12:31:00,1108,Auriculares,Electrónica,48.09,4,Barcelona,web,0.13,32.44
+100456,2025-07-11 01:59:00,1081,Camiseta,Ropa,40.9,2,Barcelona,tienda,0.22,27.29
+100235,2025-07-11 02:05:00,1011,Ensayo,Libros,11.76,3,Bilbao,app,0.09,7.1
+100010,2025-07-14 09:27:00,1107,Esterilla,Deporte,20.45,3,Zaragoza,tienda,0.35,14.1
+100021,2025-07-15 07:03:00,1095,Altavoz BT,Electrónica,86.61,4,Valladolid,web,0.35,65.9
+100267,2025-07-16 16:04:00,1038,Cafetera,Hogar,37.66,1,Barcelona,web,0.35,19.43
+100104,2025-07-16 21:07:00,1162,Novela,Libros,7.09,1,Madrid,web,0.35,4.54
+100048,2025-07-17 03:29:00,1036,Novela,Libros,18.94,4,Barcelona,tienda,0.06,12.38
+100064,2025-07-17 11:38:00,1123,Altavoz BT,Electrónica,90.27,2,Zaragoza,web,0.24,70.97
+100248,2025-07-18 04:09:00,1163,Lampara LED,Hogar,62.69,3,Madrid,tienda,0.32,39.53
+100117,2025-07-19 02:39:00,1141,Lampara LED,Hogar,45.79,3,Madrid,web,0.23,24.09
+100225,2025-07-19 21:02:00,1059,Cómic,Libros,11.58,2,Murcia,web,0.19,8.62
+100012,2025-07-20 19:56:00,1193,Esterilla,Deporte,7.6,5,Sevilla,tienda,0.18,5.44
+100132,2025-07-23 21:48:00,1039,Zapatillas,Ropa,29.13,1,Sevilla,web,0.28,17.55
+100342,2025-07-25 07:10:00,1187,Mancuernas,Deporte,40.19,5,Murcia,tienda,0.22,20.47
+100085,2025-07-25 16:01:00,1109,Mancuernas,Deporte,30.38,1,Zaragoza,web,0.02,23.65
+100287,2025-07-26 16:25:00,1100,Monitor,Electrónica,68.99,5,Valladolid,web,0.1,44.57
+100322,2025-07-27 01:14:00,1130,Disco SSD,Electrónica,89.29,3,Bilbao,web,0.14,50.56
+100054,2025-07-27 20:05:00,1142,Lampara LED,Hogar,47.58,1,Madrid,app,0.16,24.8
+100047,2025-07-28 06:48:00,1189,Cómic,Libros,27.67,5,Murcia,app,0.1,14.48
+100350,2025-07-28 14:32:00,1071,Lampara LED,Hogar,44.75,1,Murcia,web,0.29,24.25
+100391,2025-07-28 19:24:00,1102,Tostadora,Hogar,47.72,3,Madrid,web,0.32,26.91
+100166,2025-07-30 00:39:00,1146,Sudadera,Ropa,15.44,4,Zaragoza,web,0.04,8.16
+100053,2025-07-31 09:44:00,1072,Pantalón,Ropa,35.66,3,Sevilla,web,0.06,26.14
+100261,2025-07-31 10:50:00,1025,Novela,Libros,28.81,3,Zaragoza,tienda,0.06,15.0
+100091,2025-08-09 16:07:00,1119,Teclado,Electrónica,72.16,1,Valencia,web,0.25,54.11
+100340,2025-08-10 02:34:00,1165,Cafetera,Hogar,58.66,5,Zaragoza,tienda,0.25,40.77
+100198,2025-08-10 08:09:00,1038,Tostadora,Hogar,34.89,5,Murcia,web,0.08,24.87
+100450,2025-08-10 22:52:00,1118,Novela,Libros,21.42,1,Murcia,web,0.23,16.72
+100409,2025-08-12 18:46:00,1005,Novela,Libros,13.68,3,Málaga,web,,8.06

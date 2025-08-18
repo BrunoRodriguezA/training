@@ -1,19 +1,14 @@
-
+# Lee cada CSV y muestra head(), shape, info(), describe(include="all").
 import pandas as pd
-#Dado un DataFrame de empleados, implementa salario_medio_por_departamento(df) que:
-#
-# filtre empleados con sueldo > 3000
-# agrupe por departamento
-# devuelva una Serie con el sueldo medio por departamento (índice = departamento)
-# Nota: ordena el índice para pruebas deterministas.
 
+ventas  = pd.read_csv("ventas.csv")
+tickets  = pd.read_csv("tickets.csv")
+sensores  = pd.read_csv("sensores.csv")
 
-df = pd.DataFrame({
-    "nombre": ["Ana","Luis","Juan","Marta","Pedro"],
-    "departamento": ["IT","IT","Ventas","Ventas","IT"],
-    "sueldo": [3500, 2800, 4000, 2500, 5000]
-})
+print(ventas.head(n=5))
+print(f"filas={tickets.shape[0]}; columnas={tickets.shape[1]}")
+print(sensores.info())
+print(ventas.describe(include="all"))
 
-
-ser = (df.loc[df['sueldo']>3000].groupby('departamento')['sueldo'].mean().sort_index())
-ser.name = 'sueldo_medio'
+# dudas
+    # diferencia entre una serie y un df, que es cada cosa?
