@@ -65,11 +65,32 @@ indicadores custom
     return_results
 
 ### field change triggered 
-    usados para realizar alguna accion fuera del playbook cuando algun campo se modifica
+    Scripts que se ejecutan cuando cambia el valor de un campo en un incidente 
+    Usados para realizar alguna accion fuera del playbook cuando algun campo se modifica manualmente/automaticamente en tiempo real (cambi en la severidad de una inci, iniciar/pausar/detener campos de tipo timer, validar los valores de un campom)
+    Puede evitar tambien que un campo pueda ser editado en absoluto (campos sensibles)
+    Mejora la consistencia de datos y asegura que ciertos procesos se cumplan en cuanto un campo sea modificado 
+
+    
 ### field display script 
-    permite cambiar el formato en que se presenta un campo en xsoar
+    scripts que permiten cambiar dinamicamente como se muestra el valor de un campo en xsoar
         por ejemplo, cambiado los valores dentro de un tipo de incidente dependiendo si es un nuevo incidente o no 
+    Permite que los formularios de los incidentes sena mas dinamicos, muestra solo los valores relevantes
+    Facilita la toma de decisiones rapida, ya que no satura al analista de opciones innecesarias 
+
         
 ### sla trigger scripts 
-    realiza alguna accion cuando el sla timer se cumple 
+    Scripts que se ejecutan automaticamente cuando el campo timer (SLA) se incumple 
+    Sirver para notificar al owner o soc de que ocurrio un SLA breach (by email)
+    Se puede tomar acciones para que el incidente no se quede estancando, escalar serveridad, reasignar la inci a un nuevo analista/owner , avananzar en el playbook para que siga otro path 
+    Es una forma de automatizar una respuesta cuan el sla se rompe 
+    
         
+### Dynamics sections 
+    Usados para mostrar data de los incidentes, context y listas de xsoar en los incident layouts 
+    Se llenan con el output de scripts 
+    tambien se puede mostrar graphical charts con xsoar witgets 
+
+### Post Processing Scripts
+    Se configuran en cada incident type y se ejecutan justo antes de que un incidente sea cerrado (manualmente o automaticamente usando el comando colseInvestigation)
+    Ejecuta acciones de cierre, se asegura que cierta información requerida este presente, sincronizar datos con sistemas externos como Servicenow
+    Se ejecutan independientemente de que si el playbook se ejecuto o no
