@@ -10,7 +10,7 @@ atributo
 	atributo publico 
 	atributo protegido 
 	atributo privado 
-Metodos 
+Métodos 
 	métodos de clase 
 		
 	métodos de instancia 
@@ -18,72 +18,26 @@ Metodos
 		setter - modifica el valor del atributo 
 
 
+contexto estático - atributos y métodos de clase 
+contexto dinámico - atributos y métodos de objetos/instancia 
 
-class Aritmetica:
-    def __init__(self, operando1:float=None, operando2:float=None) -> None:
-        self._operando1 = operando1
-        self._operando2 = operando2
 
-    @property
-    def operando1(self) -> float:
-        return self._operando1
-    @operando1.setter
-    def operando1(self, valor: float) -> None:
-        if isinstance(valor, bool) or not isinstance(valor,(int,float)):
-            raise TypeError('Operando1 ha de ser numerico')
-        self._operando1 = float(valor)
+relación de agregación 
 
-    @property
-    def operando2(self) -> float:
-        return self._operando1
-    @operando2.setter
-    def operando2(self, valor:float) -> None:
-        if isinstance(valor, bool) or not isinstance(valor,(int,float)):
-            raise TypeError('Operando2 ha de ser numerico')
-        self._operando2 = float(valor)
+Herencia 
+	clase padre - superclase 
+		Desde la clase padre no podemos acceder a métodos de la clase hija 
+	clase hijas - subclases 
+		Desde la clase hijo si podemos acceder a métodos de la clase padre
 
-    def sumar(self) -> float:
-        return self._operando1 + self._operando2
+	Sobreescritura - clase hija el método existente de la clase padre 
+		el método ha de tener la misma firma (mismo nombre) utilizado en la clase padre, un estándar de Python 
 
-    def restar(self) -> float:
-        return self._operando1 - self._operando2
+Polimorfismo - Multiples comportamientos en distintas clases, según el tipo de dato con el que estemos trabajando y si existe o no sobreescritura
 
-    def multiplicar(self) -> float:
-        return self._operando1 * self._operando2
+	gerarquias entre clases 
+	interface - uso del mismo nombre del método, comportamiento entre varias clases 
 
-    def dividir(self) -> float:
-        return self._operando1/self._operando2
 
-if __name__ == "__main__":
-
-    a1 = Aritmetica(5,7)
-    print(a1.sumar())
-    print(a1.restar())
-    print(a1.multiplicar())
-    print(a1.dividir())
-    print()
-
-    a2 = Aritmetica(12,16)
-    print(a2.sumar())
-    print(a2.restar())
-    print(a2.multiplicar())
-    print(a2.dividir())
-    print()
-
-    # flexibilidad sobre los constructores en python
-    # iniciando los parametros con None, podemos pasar de manera opcional los valores a nuestros parametros
-    a3 = Aritmetica(7)
-    a3.operando2= 9
-    print(a3.sumar())
-    print()
-
-    a4 = Aritmetica()
-    a4.operando1 = 2
-    a4.operando2 = 8
-    print(a4.sumar())
-    print()
-
-    # a5 = Aritmetica(operando1=3, operando2=4)
-    a5 = Aritmetica(operando2=4, operando1=3)
-    print(a5.sumar())
-
+	Función polimórfica - duck typing : el tipo de objeto se determina según su comportamiento
+		si parace pato y se comporta como un pato, entonces es un pato 
