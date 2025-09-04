@@ -16,20 +16,26 @@ class Coche:
         """)
 
 
-    # @property
-    def get_marca(self) -> str:
+    @property # metodo get de manera mas pythonica
+    def marca(self) -> str:
         return self._marca
-    def set_marca(self, marca:str) -> None:
+
+    @marca.setter
+    def marca(self, marca:str) -> None:
         self._marca = marca
 
-    def get_modelo(self) -> str:
+    @property
+    def modelo(self) -> str:
         return self._modelo
-    def set_modelo(self, modelo: str) -> None:
+    @modelo.setter
+    def modelo(self, modelo: str) -> None:
         self._modelo = modelo
 
-    def get_color(self) -> str:
+    @property
+    def color(self) -> str:
         return self._color
-    def set_color(self, color:str) -> None:
+    @color.setter
+    def color(self, color:str) -> None:
         self._color = color
 
 
@@ -46,7 +52,27 @@ if __name__ == "__main__":
     # coche1.conducir()
 
     # fuera de la clase no deberiamos acceder a los atributos no publicos
-    coche1.set_marca('Toyota')
-    coche1.set_modelo('Yaris') # esto no es una buena practica
-    coche1.set_color('Azul marino') # ignoro la modificación
+    coche1.marca = 'Toyota'
+    coche1.modelo = 'Yaris' # esto no es una buena practica
+    coche1.color = 'Azul marino' # ignoro la modificación
+    # intentar agregar un nuevo atributo
+    setattr(coche1, 'nuevo_atributo', 'valor nuevo atributo') # agregar un atributo desde fuera solo para el propio objeto
+    coche1.nuevo_att2 = 'Valor nuevo atributo 2'
     coche1.conducir()
+    print(coche1.__dict__)
+
+    print(coche1.nuevo_atributo)
+    print(coche1.nuevo_att2)
+
+    coche2 = Coche('Opel', 'Moka', 'Blanco')
+    coche2.conducir()
+    print(coche2.__dict__)
+    # print(coche2.nuevo_atributo)
+    # print(coche2.nuevo_att2)
+
+    # # atribut de marca del coche
+    # print(coche1.marca)
+    # coche1.marca = 'Toyota3'
+    # print(coche1.marca)
+
+    # malas practicar, crear atributos desde fuera de manera dinamica #dinamismo de python

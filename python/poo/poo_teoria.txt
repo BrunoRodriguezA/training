@@ -1,0 +1,89 @@
+# 
+poo  - un objeto se almacena un espacio en memoria 
+instanciar un objeto
+constructor 
+atributo
+	atributo de clase - se definen fuera del método y se asocian con la clase 
+	atributo de instancia  - se asocian con los objetos en si mismo y no se comparte la información entre objetos
+
+ Encapsulamiento:
+	atributo publico 
+	atributo protegido 
+	atributo privado 
+Metodos 
+	métodos de clase 
+		
+	métodos de instancia 
+		get - devuelve el valor del atributo 
+		setter - modifica el valor del atributo 
+
+
+
+class Aritmetica:
+    def __init__(self, operando1:float=None, operando2:float=None) -> None:
+        self._operando1 = operando1
+        self._operando2 = operando2
+
+    @property
+    def operando1(self) -> float:
+        return self._operando1
+    @operando1.setter
+    def operando1(self, valor: float) -> None:
+        if isinstance(valor, bool) or not isinstance(valor,(int,float)):
+            raise TypeError('Operando1 ha de ser numerico')
+        self._operando1 = float(valor)
+
+    @property
+    def operando2(self) -> float:
+        return self._operando1
+    @operando2.setter
+    def operando2(self, valor:float) -> None:
+        if isinstance(valor, bool) or not isinstance(valor,(int,float)):
+            raise TypeError('Operando2 ha de ser numerico')
+        self._operando2 = float(valor)
+
+    def sumar(self) -> float:
+        return self._operando1 + self._operando2
+
+    def restar(self) -> float:
+        return self._operando1 - self._operando2
+
+    def multiplicar(self) -> float:
+        return self._operando1 * self._operando2
+
+    def dividir(self) -> float:
+        return self._operando1/self._operando2
+
+if __name__ == "__main__":
+
+    a1 = Aritmetica(5,7)
+    print(a1.sumar())
+    print(a1.restar())
+    print(a1.multiplicar())
+    print(a1.dividir())
+    print()
+
+    a2 = Aritmetica(12,16)
+    print(a2.sumar())
+    print(a2.restar())
+    print(a2.multiplicar())
+    print(a2.dividir())
+    print()
+
+    # flexibilidad sobre los constructores en python
+    # iniciando los parametros con None, podemos pasar de manera opcional los valores a nuestros parametros
+    a3 = Aritmetica(7)
+    a3.operando2= 9
+    print(a3.sumar())
+    print()
+
+    a4 = Aritmetica()
+    a4.operando1 = 2
+    a4.operando2 = 8
+    print(a4.sumar())
+    print()
+
+    # a5 = Aritmetica(operando1=3, operando2=4)
+    a5 = Aritmetica(operando2=4, operando1=3)
+    print(a5.sumar())
+

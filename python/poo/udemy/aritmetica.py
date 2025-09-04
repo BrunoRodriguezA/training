@@ -47,5 +47,3 @@ if __name__ == "__main__":
     # a5 = Aritmetica(operando1=3, operando2=4)
     a5 = Aritmetica(operando2=4, operando1=3)
     print(a5.sumar())
-
-
