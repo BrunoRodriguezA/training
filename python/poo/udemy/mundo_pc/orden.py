@@ -1,0 +1,24 @@
+from python.poo.udemy.mundo_pc.computadora import Computadora
+
+
+class Orden:
+    contador_ordenes = 0
+
+    def __init__(self, computadoras):
+        type(self).contador_ordenes += 1
+        self.id_orden = type(self).contador_ordenes
+
+        # recibimos la lista de objetos de tipo computadora
+        self.computadoras = computadoras
+
+    def agregar_computadoras(self, computadora):
+        self.computadoras.append(computadora)
+
+    def __str__(self):
+        computadoras_str = ''
+
+        for computadora in self.computadoras:
+            computadoras_str += '\n' + computadora.__str__()
+
+        return f""" Orden {self.id_orden}
+        Computadoras : {computadoras_str}"""
