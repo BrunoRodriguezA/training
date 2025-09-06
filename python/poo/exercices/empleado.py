@@ -3,7 +3,6 @@ from typing import List
 class Empleado:
 
     def __init__(self, nombre:str) -> None:
-        self._nombre:str = ""
         self.nombre = nombre
 
     @property
@@ -52,8 +51,6 @@ class Asalariado(Empleado):
 class PorHoras(Empleado):
     def __init__(self, nombre:str, tarifa:float, horas:float) -> None:
         super().__init__(nombre)
-        self._tarifa = float = 0.0
-        self._horas = folat = 0.0
 
         self.tarifa = tarifa
         self.horas = horas
@@ -88,10 +85,9 @@ class PorHoras(Empleado):
 
 class Empresa:
     def __init__(self, nombre:str) -> None:
-        self._nombre = ""
+        self.nombre = nombre
         self._empleados: List[Empleado] = []
 
-        self.nombre = nombre
 
     @property
     def nombre(self) -> str:
@@ -123,7 +119,7 @@ class Empresa:
         return sum(e.salario() for e in self._empleados)
 
     def __repr__(self) -> str:
-        return f"Empresa=(nombre={self._nombre}, empleados={len(self._empleados)}"
+        return f"Empresa(nombre={self._nombre}, empleados={len(self._empleados)}"
 
 
 if __name__ == "__main__":

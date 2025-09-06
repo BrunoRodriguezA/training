@@ -1,8 +1,5 @@
 class DispositivoEntrada:
     def __init__(self, marca:str, tipo_entrada:str):
-        self._marca: str = ""
-        self._tipo_entrada: str = ""
-
         self.marca = marca
         self.tipo_entrada = tipo_entrada
 
