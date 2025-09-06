@@ -27,7 +27,6 @@ class Asalariado(Empleado):
     def __init__(self, nombre:str, salario_mensual:float) -> None:
         # hereda de empleado
         super().__init__(nombre)
-        self._salario_mensual = None
         self.salario_mensual = salario_mensual
 
     @property
@@ -51,7 +50,6 @@ class Asalariado(Empleado):
 class PorHoras(Empleado):
     def __init__(self, nombre:str, tarifa:float, horas:float) -> None:
         super().__init__(nombre)
-
         self.tarifa = tarifa
         self.horas = horas
 
