@@ -33,3 +33,5 @@ if __name__ == "__main__":
     monitor2 = Monitor('AOC', 30)
     pc2 = Computadora('Gamer', monitor2, teclado2, raton2)
     print(f'\n{pc2}')
+
+    print(Teclado.mro())

@@ -105,7 +105,7 @@ class Empresa:
             raise ValueError("No puede ser un campo vacio")
         self._nombre = nombre
 
-    def agregar_empleados(self, empleado: Empleado):
+    def agregar_empleados(self, empleado: Empleado) -> None:
         # validar objeto
         if not isinstance(empleado, Empleado):
             raise TypeError("Solo se pueden agregar instancias Empleado")
@@ -114,7 +114,7 @@ class Empresa:
             raise ValueError("Este empleado ya esta en la empresa")
         self._empleados.append(empleado)
 
-    def eliminar_empleado(self, empleado:Empleado):
+    def eliminar_empleado(self, empleado:Empleado) -> None:
         if empleado not in self._empleados:
             raise ValueError("Este empleado no esta en la empresa")
         self._empleados.remove(empleado)
