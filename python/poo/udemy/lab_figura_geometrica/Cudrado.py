@@ -7,7 +7,7 @@ class Cuadrado(FiguraGeometica, Color):
         FiguraGeometica.__init__(self,lado,lado)
         Color.__init__(self,color)
 
-    def area(self) -> float:
+    def calcular_area(self) -> float:
         return self.ancho * self.alto
 
     def __str__(self) -> str:
@@ -15,4 +15,4 @@ class Cuadrado(FiguraGeometica, Color):
 if __name__ == "__main__":
     c1 = Cuadrado(5,'verde')
     print(c1)
-    print(c1.area())
+    print(c1.calcular_area())

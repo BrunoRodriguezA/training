@@ -7,7 +7,7 @@ class Rectangulo(FiguraGeometica,Color):
         FiguraGeometica.__init__(self,ancho, alto)
         Color.__init__(self,color)
 
-    def area(self) -> float:
+    def calcular_area(self) -> float:
         return self.ancho * self.alto
 
     def __str__(self) -> str:
@@ -15,5 +15,5 @@ class Rectangulo(FiguraGeometica,Color):
 
 if __name__ == "__main__":
     r1 = Rectangulo(3,8,'azul')
-    print(r1.area())
+    print(r1.calcular_area())
     print(r1)
