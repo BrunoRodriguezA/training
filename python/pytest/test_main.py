@@ -1,18 +1,9 @@
-from ex3 import unicos_en_orden, unicos_en_orden_nohash
+from ex9 import enmascarar_tarjetas
 
-def test_unicos_en_orden():
-    assert unicos_en_orden([1, 2, 2, 3, 1, 4]) == [1, 2, 3, 4]
-    assert unicos_en_orden(["a", "a", "b", "A"]) == ["a", "b", "A"]
-    assert unicos_en_orden(["á", "á", "b", "A"]) == ["á", "b", "A"]
-    assert unicos_en_orden(["á", "á",1, "b", "A", 0, 0, 1]) == ["á", 1, "b", "A", 0]
-    assert unicos_en_orden([""]) == [""]
-    assert unicos_en_orden_nohash(["a", "a", "b", "A", [1]]) == ["a", "b", "A", [1]]
-
-
-
-
-
-
-
+def test_enmascarar_tarjetas():
+    texto = "Pago 1234 5678 9012 3456 y 4321-0000-1111-2222"
+    esp = "Pago **** **** **** 3456 y ****-****-****-2222"
+    assert enmascarar_tarjetas(texto) == esp
+    assert enmascarar_tarjetas("Nada aquí") == "Nada aquí"
 
 

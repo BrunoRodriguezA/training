@@ -43,3 +43,10 @@ Polimorfismo - Multiples comportamientos en distintas clases, según el tipo de 
 		si parace pato y se comporta como un pato, entonces es un pato 
 
 Clase object - clase padre de todas las clases en Python de manera directa/indirecta
+
+26295658B
+672556058
+agrodillas.roser@gmail.com
+JV24-26295658B-NA78H
+
+
