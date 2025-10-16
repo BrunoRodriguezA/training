@@ -13,7 +13,6 @@ while opcion != 4:
 
         opcion = int(input("Escribre tu opcion(1-4): "))
 
-        # if not 1 <= opcion <= 4:
         if opcion == 1:
             pelicula = Pelicula(input('Proporcione una pelicula: '))
             cp.agregar_peliculas(pelicula)
