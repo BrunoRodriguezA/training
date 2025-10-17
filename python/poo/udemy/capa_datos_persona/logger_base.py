@@ -1,7 +1,7 @@
 import logging as log
 from pathlib import Path
 
-current_dir = Path.cwd()
+# current_dir = Path.cwd()
 # file_path= current_dir / "capa_datos.log" # en vscode el path es la raiz del workspace, o el dir del launch.json 
 ruta_archivo = Path(__file__).parent / "capa_datos.log"
 
