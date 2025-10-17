@@ -1,0 +1,19 @@
+# sistema
+.DS_Store
+Thumbs.db
+
+# dependencias / builds
+node_modules/
+dist/
+build/
+*.log
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# entorno
+.env
+.env.*
