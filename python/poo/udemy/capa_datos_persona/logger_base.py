@@ -28,4 +28,5 @@ if __name__ == "__main__":
     # Por default muestras los niveles de WARNING|ERROR|CRITICAL
     # Se puede indicar el nivel desde los parametros de la config
     # Handler, recurso donde podemos enviar la info consola/archivo
-    # Printear fecha, nivel, linea de fichero 
+    # Printear fecha, nivel, linea de fichero
+    #
