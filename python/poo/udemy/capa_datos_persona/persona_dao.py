@@ -54,7 +54,8 @@ class PersonaDAO:
             # como estamos dentro del contexto del tipo with, no tenemos que hacer commit 
 
 # DAO - DATA ACCESS OBJECT 
-# CRUD - CREATE-READ-UPDATE-DELETE        
+# CRUD - CREATE-READ-UPDATE-DELETE      
+# PACKETS , IMPORTANCIA DE RUTAS REALITVAS Y ABSOLUTAS    
         
 if __name__ == "__main__":
     # # Insertar un registro

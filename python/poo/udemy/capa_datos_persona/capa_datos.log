@@ -87,3 +87,12 @@
 01:03:18 AM: DEBUG [persona_dao.py:79] Persona(id_persona=10, nombre=Maria, apellido=Esparza, email=mesparza@mail.com)
 01:03:18 AM: DEBUG [persona_dao.py:79] Persona(id_persona=11, nombre=Carlos, apellido=Lara, email=clara@mail.com)
 01:03:18 AM: DEBUG [persona_dao.py:79] Persona(id_persona=12, nombre=Alex, apellido=Rojas, email=arojas@mail.com)
+03:29:23 PM: DEBUG [conexion.py:19] Conexión exitosa: <connection object at 0x00000211C3CE7670; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:29:23 PM: DEBUG [conexion.py:32] Se abrio correctamente el cursor: <cursor object at 0x00000211C3D025E0; closed: 0>
+03:29:23 PM: DEBUG [persona_dao.py:52] Persona eliminada: Persona(id_persona=13, nombre=None, apellido=None, email=None)
+03:29:23 PM: DEBUG [persona_dao.py:74] Personas eliminadas: 0
+03:29:23 PM: DEBUG [persona_dao.py:80] Persona(id_persona=1, nombre=Juan Carlos, apellido=Perez, email=cjjuarez@mail.com)
+03:29:23 PM: DEBUG [persona_dao.py:80] Persona(id_persona=2, nombre=Ivonne, apellido=Gutierrez, email=igutierrez@mail.com)
+03:29:23 PM: DEBUG [persona_dao.py:80] Persona(id_persona=10, nombre=Maria, apellido=Esparza, email=mesparza@mail.com)
+03:29:23 PM: DEBUG [persona_dao.py:80] Persona(id_persona=11, nombre=Carlos, apellido=Lara, email=clara@mail.com)
+03:29:23 PM: DEBUG [persona_dao.py:80] Persona(id_persona=12, nombre=Alex, apellido=Rojas, email=arojas@mail.com)
