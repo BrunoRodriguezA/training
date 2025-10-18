@@ -49,7 +49,7 @@ class Conexion:
     # cerrar conexiones
     @classmethod
     def cerrarConexiones(cls):
-        cls.obtenerPool.closeall()
+        cls.obtenerPool().closeall()
         log.debug(f"Se han cerrado todas las conexiones")
             
 if __name__ == "__main__":

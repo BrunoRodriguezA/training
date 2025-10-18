@@ -28,7 +28,7 @@ class Usuario:
         self._password = value    
         
     def __str__(self) -> str:
-        return f"{self.__class__.__name__}(id_usuario={self._id_usuario}, username={self._username}, password={self._password})"
+        return f"{self.__class__.__name__}: {self._id_usuario}, {self._username}, {self._password}"
     
 # Responsabilidad crear objetos entidad usuario
 if __name__ == "__main__":
