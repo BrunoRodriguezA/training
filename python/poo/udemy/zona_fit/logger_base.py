@@ -4,7 +4,7 @@ from pathlib import Path
 #fecha | error lvl | namefile | n_linea |message 
 filePath = Path(__file__).parent / 'zona_fit.log'
 
-log.basicConfig(level=log.DEBUG,
+log.basicConfig(level=log.INFO,
                 format=('%(asctime)s: %(levelname)s [%(filename)s:%(lineno)2d] - %(message)s'),
                 handlers=[
                     log.StreamHandler(),

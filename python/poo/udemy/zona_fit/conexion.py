@@ -8,14 +8,14 @@ class Conexion:
         "host" : 'localhost',
         "username" : 'root',
         "password" : 'admin',
-        "database" : 'personas_db',
+        "database" : 'zona_fit_db',
         "port" : '3306',
         }
     
     _HOST = 'localhost'
     _USERNAME = 'root'
     _PASSWORD = 'admin'
-    _DATABASE  = 'personas_db'
+    _DATABASE  = 'zona_fit_db'
     _DB_PORT = '3306'
     _POOL_SIZE = 5
     _POOL_NAME = 'zona_fit_pool'
@@ -30,7 +30,7 @@ class Conexion:
                                                         username=cls._USERNAME, password=cls._PASSWORD,
                                                         database=cls._DATABASE, host=cls._HOST,
                                                         port=cls._DB_PORT)
-                # log.debug(f"Poolname: {cls._pool.pool_name}")
+                log.debug(f"Poolname: {cls._pool.pool_name}")
                 # log.debug(f"Poolsize: {cls._pool.pool_size}")
                 return cls._pool
             except Error as e:
@@ -46,25 +46,18 @@ class Conexion:
         except Exception as e:
             log.debug(f"Error al obtener la conexión: {e}, {type(e)}")
             sys.exit()
-            
-    @classmethod
-    def obtenerCursor(cls):
-        try:
-            cursor = cls.obtenerConexion().cursor()
-            return cursor
-        except Exception as e:
-            log.debug(f"Error al obtener el cursor: {e}, {type(e)}")
-            sys.exit()
+
             
     @classmethod
     def liberarConexion(cls, conn):
         conn.close()
-        log.debug(f"Conexion devuelta al pool")
+        log.debug(f"Conexion devuelta al pool: {conn}")
         
 if __name__ == "__main__":
     con1 = Conexion.obtenerConexion()
     # conn = Conexion.obtenerConexion()
     # cursor = conn.cursor()
-    # pool = Conexion.obtenerPool()
+    pool = Conexion.obtenerPool()
     print(con1)
+    print(pool)
     Conexion.liberarConexion(con1)

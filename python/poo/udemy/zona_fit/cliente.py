@@ -38,12 +38,15 @@ class Cliente:
     def __str__(self):
         return f"{self.__class__.__name__} {self._id_cliente} {self._nombre} {self._apellido} {self._membresia}"
     
+    
+    
 # definición atributos
     # encapsulamiento 
     # metodo str 
     
 if __name__ == "__main__":
     c1 = Cliente(1,'Pep', 'Ocho', '123')
-    c2 = Cliente(3,'Pere', 'Pou', '456')
+    c2 = Cliente(nombre='Pep',apellido='Ocho', membresia='123')
+    # c2 = Cliente(3,'Pere', 'Pou', '456')
     print(c1)
     print(c2)
