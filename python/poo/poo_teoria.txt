@@ -1,0 +1,54 @@
+# 
+poo  - un objeto se almacena un espacio en memoria 
+instanciar un objeto
+constructor 
+atributo
+	atributo de clase - se definen fuera del método y se asocian con la clase 
+	atributo de instancia  - se asocian con los objetos en si mismo y no se comparte la información entre objetos
+
+ Encapsulamiento:
+	atributo publico 
+	atributo protegido 
+	atributo privado 
+Métodos 
+	métodos de clase 
+		
+	métodos de instancia 
+		get - devuelve el valor del atributo 
+		setter - modifica el valor del atributo 
+
+
+contexto estático - atributos y métodos de clase 
+contexto dinámico - atributos y métodos de objetos/instancia 
+
+
+relación de agregación 
+
+Herencia 
+	clase padre - superclase 
+		Desde la clase padre no podemos acceder a métodos de la clase hija 
+	clase hijas - subclases 
+		Desde la clase hijo si podemos acceder a métodos de la clase padre
+
+	Sobreescritura - clase hija el método existente de la clase padre 
+		el método ha de tener la misma firma (mismo nombre) utilizado en la clase padre, un estándar de Python 
+
+Polimorfismo - Multiples comportamientos en distintas clases, según el tipo de dato con el que estemos trabajando y si existe o no sobreescritura
+
+	gerarquias entre clases 
+	interface - uso del mismo nombre del método, comportamiento entre varias clases 
+
+
+	Función polimórfica - duck typing : el tipo de objeto se determina según su comportamiento
+		si parace pato y se comporta como un pato, entonces es un pato 
+
+Clase object - clase padre de todas las clases en Python de manera directa/indirecta
+
+26295658B
+672556058
+agrodillas.roser@gmail.com
+JV24-26295658B-NA78H
+JV25-26295658B-GTJYD
+
+
+
