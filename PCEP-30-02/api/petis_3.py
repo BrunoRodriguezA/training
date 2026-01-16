@@ -5,6 +5,7 @@ import json
 # Exercicio 2
 s = Session()
 url = "https://jsonplaceholder.typicode.com/posts"
+
 payload = {
     "title": "Mi primer post desde Python",
     "body": "Este es el cuerpo del post",
