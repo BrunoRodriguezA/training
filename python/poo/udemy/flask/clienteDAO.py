@@ -6,6 +6,7 @@ from cliente import Cliente
 class ClienteDAO:
     
     _SELECT = 'SELECT * FROM cliente'
+    _SELECT_BY_ID = 'SELECT * FROM cliente WHERE id=%s'
     _INSERT = 'INSERT INTO cliente (nombre, apellido, membresia) VALUES(%s,%s,%s)'
     _UPDATE = "UPDATE cliente SET nombre=%s, apellido=%s, membresia=%s WHERE id=%s"
     _DELETE = "DELETE FROM cliente WHERE id=%s"
@@ -28,6 +29,23 @@ class ClienteDAO:
         finally:
             if conn is not None:
                 Conexion.liberarConexion(conn)
+                
+    @classmethod
+    def seleccionar_por_id(cls, id_cliente):
+        conn = None 
+        try:
+            conn = Conexion.obtenerConexion()
+            with conn.cursor() as cursor:
+                valores = (id_cliente,)
+                cursor.execute(cls._SELECT_BY_ID, valores)
+                registro = cursor.fetchone()
+                cliente = Cliente(registro[0],registro[1],registro[2],registro[3])
+                return cliente
+        except Exception as e:
+            log.debug(f"Ocurrio un error al seleccionar un cliente por ID: {e}, {type(e)}")
+        finally:
+            if conn is not None:
+                Conexion.liberarConexion(conn)                
             
     @classmethod
     def insertar(cls, cliente):
@@ -45,8 +63,7 @@ class ClienteDAO:
         finally:
             if conn is not None:
                 Conexion.liberarConexion(conn)
-
-            
+       
     @classmethod
     def actualizar(cls, cliente):
         conn = None 
@@ -102,7 +119,11 @@ if __name__ == "__main__":
     # log.debug(f"Clientes eliminados: {clientes_eliminados}")    
     
     # SELECT
-    clientes = ClienteDAO.seleccionar()
-    for cliente in clientes: print(cliente)
-    
+    # clientes = ClienteDAO.seleccionar()
+    # for cliente in clientes: print(cliente)
+     
+    # SELECT BY ID 
+    cliente = ClienteDAO.seleccionar_por_id(8)
+    print(cliente)
+    print(type(cliente))
     
